@@ -11,6 +11,25 @@
   <a href="#" class="btn">Decouvrez l'application</a>
   </div>
 </header>
+<section class="presentation">
+  <h2>The new digital musical instrument</h2>
+  <div class="intro">
+    <p>
+      This new musical instrument is the result of numerous years of research
+  and development in the field of expressive singing voice synthesis.
+    </p>
+    <img src="assets/images/iPadPro.png" class="ipad front_1" alt="" />
+  </div>
 
+  <img src="assets/images/iPadPro.png" class="ipad back_1" alt="" />
+  <img src="assets/images/iPadPro.png"  class="ipad back_2" alt="" />
+
+  <img src="assets/images/iPadPro.png" class="ipad front_2" alt="" />
+  <p>
+    The HandSketch has already been used in many performances, and can accompany classical instruments as well as fit electronic music circumstances.
+  </p>
+  <small> The new digital musical instrument </small>
+  <a href="#" class="btn">Decouvrez l'application</a>
+</section>
 
 <?php include 'pages/end.php' ?>
