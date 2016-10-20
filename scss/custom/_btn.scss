@@ -9,7 +9,7 @@
   text-decoration: none;
   box-shadow: 1px 1px 15px 0px rgba(255, 255, 255,0.75);
   animation: light 3s infinite;
-  transition: all 2s ease-out;
+  transition: box-shadow 2s ease-out;
 }
 
 @keyframes light {

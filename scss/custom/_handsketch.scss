@@ -7,11 +7,17 @@
       @extend .centerxy;
       text-align: center;
       color: #FFF;
+      width: 90%;
     }
     h1{
       margin-top: 0;
       margin: 0;
-      letter-spacing: 40px;
+      font-size: 100px;
+      letter-spacing: 10px;
+      @media (min-width: $xl) {
+        letter-spacing: 40px;
+        font-size: 200px;
+      }
     }
     .btn{
       margin-top: 50px;
