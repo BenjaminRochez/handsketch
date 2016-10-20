@@ -8,4 +8,18 @@
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: 1px 1px 15px 0px rgba(255, 255, 255,0.75);
+  animation: light 3s infinite;
+  transition: all 2s ease-out;
+}
+
+@keyframes light {
+  0% {
+    box-shadow: 1px 1px 15px 0px rgba(255, 255, 255,0.75);
+  }
+  50% {
+    box-shadow: 1px 1px 50px 0px rgba(255, 255, 255,0.75);
+  }
+  100% {
+    box-shadow: 1px 1px 15px 0px rgba(255, 255, 255,0.75);
+  }
 }
