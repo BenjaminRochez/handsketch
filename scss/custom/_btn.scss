@@ -1,21 +1,11 @@
 .btn{
+  display: inline-block;
+  font-size: 30px;
+  font-family: $chat;
+  color: #000;
+  background: #FFF;
+  padding: 5px 20px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: $sofia;
-  padding: 10px 7px;
-  font-size: 15px;
-  display: block;
-  width: 200px;
-  text-align: center;
-}
-
-
-.btn-blue{
-  color: $azur;
-  border: 2px solid $azur;
-}
-
-.btn-moutarde{
-  border: 2px solid $moutarde;
-  color: $moutarde;
+  box-shadow: 1px 1px 15px 0px rgba(255, 255, 255,0.75);
 }

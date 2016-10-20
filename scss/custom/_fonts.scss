@@ -1,2 +1,16 @@
-$play: 'PlayFair Display', serif; 
-$sofia: "sofia-pro",sans-serif; 
+$mont: 'Montserrat', sans-serif;
+$chat: 'Chathura', sans-serif;
+
+
+h1{
+  font-family: $chat;
+  font-weight: 800!important;
+  font-size: 200px;
+  color: #FFF;
+}
+
+p{
+  margin: 0;
+  font-family: $chat;
+  font-size: 40px;
+}
