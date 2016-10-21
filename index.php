@@ -38,6 +38,8 @@
   </nav>
 
 </header>
+
+<!-- SECTION PRESENTATION -->
 <section class="presentation">
   <h2>The new digital musical instrument</h2>
   <div class="intro">
@@ -45,6 +47,7 @@
       This new musical instrument is the result of numerous years of research
   and development in the field of expressive singing voice synthesis.
     </p>
+    <small class="verticaltext_right"> The new digital musical instrument </small>
     <img src="assets/images/iPadPro.png" class="ipad front_1" alt="" />
   </div>
 
@@ -55,8 +58,15 @@
   <p class="description">
     The HandSketch has already been used in many performances, and can accompany classical instruments as well as fit electronic music circumstances.
   </p>
-  <small> The new digital musical instrument </small>
+  <small class="verticaltext_left"> The new digital musical instrument</small>
   <a href="#" class="btn">Decouvrez l'application</a>
+  <div class="demonstration">
+    <img src="assets/images/interface_2.png" alt="interface handsketch" />
+    <img src="assets/images/interface_1.png" alt="interface handsketch" />
+    <img src="assets/images/interface_2.png" alt="interface handsketch" />
+  </div>
 </section>
+
+
 
 <?php include 'pages/end.php' ?>

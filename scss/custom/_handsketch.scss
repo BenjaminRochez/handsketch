@@ -36,7 +36,7 @@
   .presentation{
     text-align: center;
     position: relative;
-    height: 2400px; //TEMPORAIRE
+    height: 2500px;
     background: url('assets/images/fond.jpg') no-repeat center center;
     background-size: cover;
     h2{
@@ -75,9 +75,27 @@
       @extend .centerx;
       margin-top: 60px;
     }
+    .verticaltext_right {
+      transform: rotate(90deg);
+      width: 450px;
+      position: absolute;
+      left: 33%;
+      top: 60%;
+      opacity: .6;
+    }
+    .verticaltext_left {
+      transform: rotate(-90deg);
+      width: 450px;
+      position: absolute;
+      right: 33%;
+      top: 76%;
+      opacity: .6;
+    }
     .btn {
-      margin-top: 600px;
+      position: relative;
+      top: 640px;
       z-index: 6;
+      border-radius: 4px;
     }
     .front_1{
         margin-top: 150px;
@@ -112,6 +130,21 @@
       position: absolute;
       filter: blur(2px);
       opacity: 1;
+    }
+    .demonstration {
+      width: 100%;
+      background-color: red;
+      height: auto;
+      position: relative;
+      top: 700px;
+      img {
+        width: 80%;
+        float: left;
+        margin-top: 20px;
+        &:nth-child(odd) {
+          float: right;
+        }
+      }
     }
   }
 
