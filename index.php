@@ -52,7 +52,7 @@
   <img src="assets/images/iPadPro.png"  class="ipad back_2" alt="" />
 
   <img src="assets/images/iPadPro.png" class="ipad front_2" alt="" />
-  <p>
+  <p class="description">
     The HandSketch has already been used in many performances, and can accompany classical instruments as well as fit electronic music circumstances.
   </p>
   <small> The new digital musical instrument </small>
