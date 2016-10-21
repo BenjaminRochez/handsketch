@@ -65,78 +65,87 @@
           font-size: 35px;
           font-weight: 800px;
         }
-      }
-    }
-    .description {
-      line-height: 28px;
-      font-size: 30px;
-      width: 90%;
-      z-index: 5;
-      @extend .centerx;
-      margin-top: 60px;
-    }
-    .verticaltext_right {
-      transform: rotate(90deg);
-      width: 450px;
-      position: absolute;
-      left: 33%;
-      top: 60%;
-      opacity: .6;
-    }
-    .verticaltext_left {
-      transform: rotate(-90deg);
-      width: 450px;
-      position: absolute;
-      right: 33%;
-      top: 76%;
-      opacity: .6;
-    }
-    .btn {
-      position: relative;
-      top: 640px;
-      z-index: 6;
-      border-radius: 4px;
-    }
-    .front_1{
+
+        }
+      .front_1 {
         margin-top: 150px;
         max-width: 80%;
-      @media (min-width: $lg) {
+        @media (min-width: $lg) {
         max-width: 45%;
         margin-right: 25%;
         margin-top: 100px;
+        }
+      }
+      .verticaltext_right {
+        transform: rotate(90deg);
+        width: 450px;
+        position: absolute;
+        left: 33%;
+        top: 60%;
+        opacity: .6;
       }
     }
-    .front_2{
-      max-width: 50%;
-      position: absolute;
-      right: 12%;
-      margin-top: 200px;
-      z-index: 4;
 
+    //---- SHOW BLOCK ----//
+    .show {
+      width: 100%;
+      position: relative;
+      p {
+        line-height: 28px;
+        font-size: 30px;
+        width: 90%;
+        z-index: 5;
+        position: relative;
+        bottom: 30px;
+        @extend .centerx;
+      }
+      .btn {
+        position: relative;
+        top: 40px;
+        z-index: 6;
+        border-radius: 4px;
+      }
+      .front_2{
+        max-width: 50%;
+        position: relative;
+        right: 8%;
+        bottom: 50px;
+        z-index: 4;
+      }
+      .back_1{
+        max-width: 40%;
+        left: 3%;
+        margin-top: 100px;
+        z-index: 3;
+        position: relative;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+        opacity: 1;
+      }
+      .back_2{
+        max-width: 20%;
+        right: 10%;
+        top: 40px;
+        position: relative;
+        filter: blur(2px);
+        opacity: 1;
+      }
     }
-    .back_1{
-      max-width: 40%;
-      left: 10%;
-      margin-top: 400px;
-      z-index: 3;
-      position: absolute;
-      filter: blur(1px);
-      opacity: 1;
-    }
-    .back_2{
-      max-width: 20%;
-      left: 30%;
-      margin-top: 20px;
-      position: absolute;
-      filter: blur(2px);
-      opacity: 1;
-    }
+    //---- DEMONSTRATION BLOCK ----//
     .demonstration {
       width: 100%;
       background-color: red;
       height: auto;
       position: relative;
-      top: 700px;
+      top: 120px;
+      .verticaltext_left {
+        transform: rotate(-90deg);
+        width: 450px;
+        position: absolute;
+        right: 33%;
+        top: 180px;
+        opacity: .6;
+      }
       img {
         width: 80%;
         float: left;
