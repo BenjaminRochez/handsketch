@@ -36,7 +36,7 @@
   .presentation{
     text-align: center;
     position: relative;
-    height: 2500px;
+    // height: 2500px;
     background: url('assets/images/fond.jpg') no-repeat center center;
     background-size: cover;
     h2{
@@ -47,6 +47,11 @@
       line-height: 45px;
       padding-top: 50px;
     }
+    .btn {
+      margin-top: 60px;
+      border-radius: 4px;
+    }
+    //---- INTRO BLOCK ----//
     .intro{
       position: relative;
       display: inline-block;
@@ -85,7 +90,6 @@
         opacity: .6;
       }
     }
-
     //---- SHOW BLOCK ----//
     .show {
       width: 100%;
@@ -156,7 +160,7 @@
     //---- BANNERWHITE BLOCK ----//
     .bannerwhite {
       width: 100%;
-      padding-bottom: 200px;
+      padding-bottom: 70px;
       background-color: #FFF;
       position: relative;
       &:before {
@@ -212,6 +216,45 @@
         color: $aubergine;
         letter-spacing: 4px;
       }
+    }
+  }
+  footer {
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    h3 {
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: 6px;
+      color: #FFF;
+      width: 100%;
+      margin-top: 60px;
+    }
+    p{
+      font-weight: 300;
+      font-size: 26px;
+      margin-top: 0px;
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $azur;
+      display: block;
+      margin-top: 10px;
+      letter-spacing: 2px;
+      transition: all .3s ease-out;
+      &:hover, &:active {
+        text-decoration: line-through;
+        color: #FFF;
+      }
+    }
+    img {
+      width: 50px;
+      border-radius: 10px;
+      @extend .centerx;
+      top: 40px;
+      margin-bottom: 50px;
     }
   }
 }

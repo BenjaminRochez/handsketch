@@ -45,8 +45,7 @@
   <!-- INTRO BLOCK -->
   <div class="intro">
     <p>
-      This new musical instrument is the result of numerous years of research
-  and development in the field of expressive singing voice synthesis.
+      This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
     </p>
     <small class="verticaltext_right"> The new digital musical instrument </small>
     <img src="assets/images/iPadPro.png" class="ipad front_1" alt="" />
@@ -83,6 +82,19 @@
     </div>
     <h3>Telechargez Handsketch</h3>
   </div>
+
+  <a href="#" class="btn">Decouvre Hovertone</a>
+
+  <footer>
+    <h3>
+      Hovertone
+    </h3>
+    <p>
+      Made with humans by diplostudio
+    </p>
+    <a href="#">Contact us</a>
+    <img src="assets/images/logo_handsketch.png" alt="logo handsketch" />
+  </footer>
 
 </section>
 
