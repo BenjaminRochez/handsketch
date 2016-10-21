@@ -10,6 +10,33 @@
   </p>
   <a href="#" class="btn">Decouvrez l'application</a>
   </div>
+
+  <!-- BURGER -->
+  <div class="burger">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+  </div>
+
+  <!-- MAIN NAV -->
+  <nav>
+    <ul>
+      <li class="home">
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Project</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <div class="langue">
+      <a href="#">FR</a>
+      <a href="#">NL</a>
+    </div>
+  </nav>
+
 </header>
 <section class="presentation">
   <h2>The new digital musical instrument</h2>
