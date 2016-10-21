@@ -78,9 +78,10 @@
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
     </p>
     <div class="store">
-      <img src="assets/images/appstore.png" alt="logo appstore" />
-      <img src="assets/images/logo_handsketch.png" alt="logo handsketch" />
+      <a href="#"><img src="assets/images/appstore.png" alt="logo appstore"/></a>
+      <a href="#"><img src="assets/images/logo_handsketch.png" alt="logo handsketch"/></a>
     </div>
+    <h3>Telechargez Handsketch</h3>
   </div>
 
 </section>
