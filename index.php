@@ -71,6 +71,18 @@
     <img src="assets/images/interface_2.png" alt="interface handsketch" />
   </div>
 
+  <!--  BLOCK BANNERWHITE -->
+  <div class="bannerwhite">
+    <h2>Handsketch<span>musical instrument</span></h2>
+    <p>
+      This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
+    </p>
+    <div class="store">
+      <img src="assets/images/appstore.png" alt="logo appstore" />
+      <img src="assets/images/logo_handsketch.png" alt="logo handsketch" />
+    </div>
+  </div>
+
 </section>
 
 
