@@ -121,6 +121,8 @@ nav {
             background-color: #FFF;
             position: relative;
             top: 18px;
+            animation: drawline 2s forwards;
+            transform-origin: 0 50%;
           }
         }
         span {
@@ -167,6 +169,15 @@ nav {
 
 .nav--open {
   transform: translate(0%);
+}
+
+@keyframes drawline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(8);
+  }
 }
 
 @keyframes fadeInBottom {
