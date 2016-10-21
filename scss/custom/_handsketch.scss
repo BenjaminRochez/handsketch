@@ -32,11 +32,9 @@
       border-radius: 4px;
     }
   }
-
   .presentation{
     text-align: center;
     position: relative;
-    // height: 2500px;
     background: url('assets/images/fond.jpg') no-repeat center center;
     background-size: cover;
     h2{
@@ -63,11 +61,13 @@
         @extend .centerx;
         @media (min-width: $xl) {
           position: absolute;
-          top: 175px;
-          right: 20%;
-          max-width: 600px;
+          top: 100px;
+          left: 70%;
+          text-align: left;
+          max-width: 500px;
+          line-height: 26px;
           font-family: $chat;
-          font-size: 35px;
+          font-size: 30px;
           font-weight: 800px;
         }
 
@@ -78,7 +78,7 @@
         @media (min-width: $lg) {
         max-width: 45%;
         margin-right: 25%;
-        margin-top: 100px;
+        margin-top: 20px;
         }
       }
       .verticaltext_right {
@@ -102,6 +102,10 @@
         position: relative;
         bottom: 30px;
         @extend .centerx;
+        @media (min-width: $xl) {
+          text-align: left;
+          max-width: 500px;
+        }
       }
       .btn {
         position: relative;
@@ -124,7 +128,7 @@
         z-index: 3;
         position: relative;
         -webkit-filter: blur(1px);
-        filter: blur(1px);
+        filter: blur(2px);
         opacity: 1;
       }
       .back_2{
@@ -132,8 +136,14 @@
         right: 10%;
         top: 40px;
         position: relative;
-        filter: blur(2px);
+        filter: blur(3px);
         opacity: 1;
+        @media (min-width: $xl) {
+          max-width: 7%;
+          left: 20%;
+          bottom: 400px;
+          position: relative;
+        }
       }
     }
     //---- DEMONSTRATION BLOCK ----//
