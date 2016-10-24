@@ -25,10 +25,7 @@
         <a href="#">About</a>
       </li>
       <li>
-        <a href="#">Project</a>
-      </li>
-      <li>
-        <a href="#">Contact</a>
+        <a href="#">Achat</a>
       </li>
     </ul>
     <div class="langue">
