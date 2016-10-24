@@ -124,7 +124,7 @@
       }
     }
 
-    .infos{ 
+    .infos{
       display: block;
       p{
         font-size: 30px;
@@ -277,6 +277,7 @@
     width: 100%;
     position: relative;
     padding: 50px 0;
+    background-color: #000;
     @media (min-width: $md) {
       padding: 0;
       height: 60px;
