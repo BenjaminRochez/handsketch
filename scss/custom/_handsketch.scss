@@ -1,8 +1,23 @@
 #handsketch {
+  .background{
+    background: url('assets/images/fond.jpg') no-repeat center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 0;
+  }
   header{
     background: url('assets/images/home.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
     .content{
       @extend .centerxy;
       text-align: center;
@@ -35,15 +50,14 @@
   .presentation{
     text-align: center;
     position: relative;
-    background: url('assets/images/fond.jpg') no-repeat center center;
-    background-size: cover;
+    margin-top: 100vh;
+    z-index: 9;
     h2{
       margin-top: 0;
       color: #FFF;
       font-family: $chat;
       font-size: 75px;
-      line-height: 45px;
-      padding-top: 50px;
+      padding-top: 150px;
     }
     .btn{
       margin-top: 60px;
@@ -81,6 +95,7 @@
         right: 0;
         top: 60%;
         opacity: .6;
+        font-size: 12px;
       }
     }
 
@@ -121,10 +136,16 @@
       bottom: 0;
       @media (min-width: $lg) {
       max-width: 30%;
+      -webkit-filter: blur(2px);
+      -moz-filter: blur(2px);
+      -o-filter: blur(2px);
+      -ms-filter: blur(2px);
+      filter: blur(2px);
       }
     }
 
-    .infos{ 
+    .infos{
+      padding-bottom: 100px;
       display: block;
       p{
         font-size: 30px;
