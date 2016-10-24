@@ -43,7 +43,7 @@
 <section class="presentation">
   <h2>The new digital musical instrument</h2>
   <!-- INTRO BLOCK -->
-  <div class="intro">
+  <div class="intro sr">
     <p>
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
     </p>
@@ -52,22 +52,22 @@
   </div>
 
   <!-- SHOW BLOCK -->
-  <div class="show">
+  <div class="show sr">
     <img src="assets/images/iPadPro.png"  class="ipad back_2" alt="" />
     <p class="description">
       The HandSketch has already been used in many performances, and can accompany classical instruments as well as fit electronic music circumstances.
     </p>
-    <img src="assets/images/iPadPro.png" class="ipad back_1" alt="" />
+    <img src="assets/images/iPadPro.png"  class="ipad back_1" alt="" />
     <img src="assets/images/iPadPro.png" class="ipad front_2" alt="" />
     <a href="#" class="btn">Decouvrez l'application</a>
   </div>
 
   <!-- DEMONSTRATION BLOCK -->
   <div class="demonstration">
-    <small class="verticaltext_left"> The new digital musical instrument</small>
-    <img src="assets/images/interface_2.png" alt="interface handsketch" />
-    <img src="assets/images/interface_1.png" alt="interface handsketch" />
-    <img src="assets/images/interface_2.png" alt="interface handsketch" />
+    <small class="verticaltext_left sr"> The new digital musical instrument</small>
+    <img src="assets/images/interface_2.png" class="sr"  alt="interface handsketch" />
+    <img src="assets/images/interface_1.png" class="sr" alt="interface handsketch" />
+    <img src="assets/images/interface_2.png" class="sr" alt="interface handsketch" />
   </div>
 
   <!--  BLOCK BANNERWHITE -->
