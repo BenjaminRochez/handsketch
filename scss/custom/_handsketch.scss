@@ -152,6 +152,9 @@
       position: relative;
       padding-bottom: 50px;
       overflow: hidden;
+      @media (min-width: $lg) {
+        padding-bottom: 150px;
+      }
       .verticaltext_left {
         transform: rotate(-90deg);
         width: 450px;
