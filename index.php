@@ -83,7 +83,6 @@
     <small class="verticaltext_left sr"> The new digital musical instrument</small>
     <img src="assets/images/interface_2.png" class="sr"  alt="interface handsketch" />
     <img src="assets/images/interface_1.png" class="sr" alt="interface handsketch" />
-    <img src="assets/images/interface_2.png" class="sr" alt="interface handsketch" />
   </div>
 
   <!--  BLOCK BANNERWHITE -->
