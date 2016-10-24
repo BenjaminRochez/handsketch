@@ -97,8 +97,10 @@
     </div>
     <h3>Telechargez Handsketch</h3>
   </div>
-
-  <a href="#" class="btn">Decouvrez Hovertone</a>
+  <p class="cta">
+      <a href="#" class="btn">Decouvrez l'application</a>
+  </p>
+</section>
 
   <footer>
     <h3>

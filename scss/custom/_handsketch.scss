@@ -93,7 +93,7 @@
         width: 450px;
         position: absolute;
         right: 0;
-        top: 60%;
+        top: 50%;
         opacity: .6;
         font-size: 12px;
       }
@@ -107,7 +107,7 @@
       @media (min-width: $lg) {
       max-width: 50%;
       left: 25%;
-      margin-top: 250px;
+      margin-top: 150px;
       }
     }
 
@@ -122,7 +122,7 @@
       filter: blur(3px);
       @media (min-width: $lg) {
       max-width: 15%;
-      top: 70px;
+      top: 0px;
       left: 75%;
       }
     }
@@ -133,10 +133,10 @@
       max-width: 80%;
       position: absolute;
       left: 5%;
-      bottom: 0;
+      bottom: 100px;
       @media (min-width: $lg) {
       max-width: 30%;
-      -webkit-filter: blur(2px); 
+      -webkit-filter: blur(2px);
       -moz-filter: blur(2px);
       -o-filter: blur(2px);
       -ms-filter: blur(2px);
@@ -186,6 +186,7 @@
           margin-right: 40%;
           &:nth-child(odd) {
             margin-left: 40%;
+            margin-top: 125px;
           }
         }
       }
@@ -293,11 +294,20 @@
         }
       }
     }
+    .cta {
+      height: 50px;
+      .btn{
+        position: absolute;
+        @extend .centerx;
+        margin-top: 50px;
+      }
+    }
   }
   footer {
     width: 100%;
     position: relative;
     padding: 50px 0;
+    background: #000;
     @media (min-width: $md) {
       padding: 0;
       height: 60px;
