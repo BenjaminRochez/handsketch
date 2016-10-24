@@ -392,7 +392,7 @@
     padding: 0;
     margin: 0;
     top: 50%;
-    left: 27%; // adjust to position right 67%
+    left: 35%; // adjust to position right 67%
     transform: translateY(-50%);
     z-index: 1;
     .round {
@@ -434,6 +434,12 @@
         width: 70%;
         height: 70%;
         border-radius: 70%;
+        transform: rotate(-10deg);
+        transform-origin: 50% 50%;
+        position: absolute;
+        left: 15%;
+        top: 15%;
+        animation: turn 20s infinite;
         @extend .centerxy;
       }
       &:nth-child(4) {
