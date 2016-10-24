@@ -72,6 +72,30 @@
     </p>
   </div>
 
+  <!--ANIMATION CIRCLE-->
+  <div class="circle">
+    <ul>
+      <li class="round">
+        <span></span>
+      </li>
+      <li class="round">
+        <span></span>
+      </li>
+      <li class="round">
+        <span></span>
+      </li>
+      <li class="round">
+        <span></span>
+      </li>
+      <li class="round">
+        <span></span>
+      </li>
+      <li class="round">
+        <span></span>
+      </li>
+    </ul>
+  </div>
+
 
 
 
@@ -94,6 +118,8 @@
     </div>
     <h3>Telechargez Handsketch</h3>
   </div>
+
+
 
   <a href="#" class="btn">Decouvrez Hovertone</a>
 

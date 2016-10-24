@@ -96,7 +96,7 @@ nav {
     transition: all 1s ease-out;
     @media (min-width: $md) {
       height: 100%;
-      width: 400px;
+      width: 260px;
       margin-top: 0;
     }
     &:hover li a {
@@ -110,8 +110,8 @@ nav {
       transition: all .3s ease-out;
       @media (min-width: $md) {
         float: left;
-        width: 47%;
-        margin-left: 3%;
+        width: 49%;
+        margin-left: 1%;
         height: 100%;
       }
       &:hover {

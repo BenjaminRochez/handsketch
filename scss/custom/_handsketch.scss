@@ -136,7 +136,7 @@
       bottom: 0;
       @media (min-width: $lg) {
       max-width: 30%;
-      -webkit-filter: blur(2px); 
+      -webkit-filter: blur(2px);
       -moz-filter: blur(2px);
       -o-filter: blur(2px);
       -ms-filter: blur(2px);
@@ -145,10 +145,8 @@
     }
 
     .infos{
-<<<<<<< HEAD
-=======
+
       padding-bottom: 100px;
->>>>>>> b0c1d07421df62a82f85545bcae3f581964bb11e
       display: block;
       p{
         font-size: 30px;
@@ -180,6 +178,7 @@
         margin-top: 20px;
         width: 80%;
         margin-right: 20%;
+        z-index: 2;
         &:nth-child(odd) {
           margin-left: 20%;
           right: 0;
@@ -254,7 +253,7 @@
         @media (min-width: $lg) {
           max-width: 500px;
           text-align: left;
-          margin-left: 100px;
+          margin-left: 90px;
           margin-top: 10px;
         }
       }
@@ -377,5 +376,85 @@
         border-radius: 4px;
       }
     }
+  }
+  .circle {
+    width: 1700px;
+    height: 1700px; //1700px
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    left: 27%; // adjust to position right 67%
+    transform: translateY(-50%);
+    z-index: 1;
+    .round {
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      transition: all 3s linear;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform-origin: 50% 50%;
+      border: 1px solid rgba(95,189,198,.4);
+      border-radius: 100%;
+      &:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border: 2px solid $azur;
+        // background-color: $azur;
+        position: absolute;
+        left: -10px;
+        @extend .centery;
+
+      }
+      &:nth-child(2) {
+        width: 84%;
+        height: 84%;
+        border-radius: 84%;
+        @extend .centerxy;
+        transform: rotate(-50deg);
+        transform-origin: 50% 50%;
+        position: absolute;
+        left: 8%;
+        top: 8%;
+        animation: turn 10s infinite;
+      }
+      &:nth-child(3) {
+        width: 70%;
+        height: 70%;
+        border-radius: 70%;
+        @extend .centerxy;
+      }
+      &:nth-child(4) {
+        width: 48%;
+        height: 48%;
+        border-radius: 100%;
+        @extend .centerxy;
+      }
+      &:nth-child(5) {
+        width: 35%;
+        height: 35%;
+        border-radius: 100%;
+        @extend .centerxy;
+      }
+      &:last-child {
+        width: 24%;
+        height: 24%;
+        border-radius: 100%;
+        @extend .centerxy;
+      }
+    }
+  }
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
