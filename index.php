@@ -35,10 +35,10 @@
   </nav>
 
 </header>
-
+  <div class="background"></div>
 <!-- SECTION PRESENTATION -->
 <section class="presentation">
-  <h2>The new digital musical instrument</h2>
+  <h2 class="h">The new digital musical instrument</h2>
   <!-- INTRO BLOCK -->
   <div class="intro scrollme">
     <p class="first-p">
@@ -55,7 +55,7 @@
       data-when="enter"
       data-from="0"
       data-to="1.5"
-      data-translatey="-350" />
+      data-translatey="-550" />
       <img src="assets/images/ipad_perspective_black.png" class="ipad front_3 animateme" alt=""
       data-when="enter"
       data-from="0.9"
@@ -83,7 +83,7 @@
   </div>
 
   <!--  BLOCK BANNERWHITE -->
-  <div class="bannerwhite">
+  <div class="bannerwhite sr">
     <h2>Handsketch<span>musical instrument</span></h2>
     <p>
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.

@@ -52,12 +52,22 @@ $(document).ready(function() {
       var srReveal = {
       easing   : 'ease-in-out',
       scale    : 1,
-      viewFactor: 0.1,
+      viewFactor: 0.3,
+      reset: true
+      };
+
+      var srRevealH = {
+      easing   : 'ease-in-out',
+      scale    : 1,
+      viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+      viewFactor: 1,
+      duration: 1000,
       reset: false
       };
 
       window.sr = ScrollReveal();
       sr.reveal('.sr', srReveal);
+      sr.reveal('.h', srRevealH);
 
 
       /*-----------------------------------------------------------------------------------*/
