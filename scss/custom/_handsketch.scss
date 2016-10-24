@@ -136,7 +136,7 @@
       bottom: 0;
       @media (min-width: $lg) {
       max-width: 30%;
-      -webkit-filter: blur(2px);
+      -webkit-filter: blur(2px); 
       -moz-filter: blur(2px);
       -o-filter: blur(2px);
       -ms-filter: blur(2px);
@@ -160,6 +160,9 @@
       position: relative;
       padding-bottom: 50px;
       overflow: hidden;
+      @media (min-width: $lg) {
+        padding-bottom: 150px;
+      }
       .verticaltext_left {
         transform: rotate(-90deg);
         width: 450px;
