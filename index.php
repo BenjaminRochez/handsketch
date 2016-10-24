@@ -43,24 +43,40 @@
 <section class="presentation">
   <h2>The new digital musical instrument</h2>
   <!-- INTRO BLOCK -->
-  <div class="intro sr">
-    <p>
+  <div class="intro scrollme">
+    <p class="first-p">
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
     </p>
     <small class="verticaltext_right"> The new digital musical instrument </small>
-    <img src="assets/images/iPadPro.png" class="ipad front_1" alt="" />
+    <div class="images">
+      <img src="assets/images/iPadPro.png" class="ipad front_1 animateme" alt=""
+      data-when="enter"
+      data-from="0"
+      data-to="2"
+      data-translatey="200" />
+      <img src="assets/images/iPadPro.png" class="ipad front_2 animateme" alt=""
+      data-when="enter"
+      data-from="0"
+      data-to="1.5"
+      data-translatey="-350" />
+      <img src="assets/images/ipad_perspective_black.png" class="ipad front_3 animateme" alt=""
+      data-when="enter"
+      data-from="0.9"
+      data-to="2.5"
+      data-translatey="-450" />
+    </div>
   </div>
-
-  <!-- SHOW BLOCK -->
-  <div class="show sr">
-    <img src="assets/images/iPadPro.png"  class="ipad back_2" alt="" />
+  <div class="infos">
     <p class="description">
       The HandSketch has already been used in many performances, and can accompany classical instruments as well as fit electronic music circumstances.
     </p>
-    <img src="assets/images/iPadPro.png"  class="ipad back_1" alt="" />
-    <img src="assets/images/iPadPro.png" class="ipad front_2" alt="" />
-    <a href="#" class="btn">Decouvrez l'application</a>
+    <p>
+        <a href="#" class="btn">Decouvrez l'application</a>
+    </p>
   </div>
+
+
+
 
   <!-- DEMONSTRATION BLOCK -->
   <div class="demonstration">
@@ -83,7 +99,7 @@
     <h3>Telechargez Handsketch</h3>
   </div>
 
-  <a href="#" class="btn">Decouvre Hovertone</a>
+  <a href="#" class="btn">Decouvrez Hovertone</a>
 
   <footer>
     <h3>

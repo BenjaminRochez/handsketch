@@ -9,7 +9,31 @@ $(document).ready(function() {
       /*
       /*
       /*-----------------------------------------------------------------------------------*/
+      /*-----------------------------------------------------------------------------------*/
+      /*	Navigation
+      /*-----------------------------------------------------------------------------------*/
 
+      $('.burger').click(function(){
+          $(this).toggleClass('burgerCross');
+      });
+      $('.burger').click(function() {
+          if ($('.burger').hasClass('burgerCross')) {
+              $('nav').addClass('nav--open');
+              $('.line1').addClass('lineStatic');
+              $('.line3').addClass('lineStatic');
+          }
+          else {
+          $('nav').removeClass('nav--open');
+          $('.line1').removeClass('lineStatic');
+          $('.line3').removeClass('lineStatic');
+          }
+      });
+      $('.nav li a').click(function() {
+          if ($('.burger').hasClass('burger')) {
+              $('.burger').removeClass('burger');
+              $('nav').removeClass('nav--open');
+          }
+      });
 
 
       /*-----------------------------------------------------------------------------------*/
@@ -35,8 +59,6 @@ $(document).ready(function() {
       window.sr = ScrollReveal();
       sr.reveal('.sr', srReveal);
 
-      var scene = document.getElementById('scene');
-      var parallax = new Parallax(scene);
 
       /*-----------------------------------------------------------------------------------*/
       /*	ScrollTo
@@ -83,30 +105,6 @@ $(document).ready(function() {
           location.hash = h;
         }
       }
-      /*-----------------------------------------------------------------------------------*/
-      /*	Navigation
-      /*-----------------------------------------------------------------------------------*/
 
-      $('.burger').click(function(){
-          $(this).toggleClass('burgerCross');
-      });
-      $('.burger').click(function() {
-          if ($('.burger').hasClass('burgerCross')) {
-              $('nav').addClass('nav--open');
-              $('.line1').addClass('lineStatic');
-              $('.line3').addClass('lineStatic');
-          }
-          else {
-          $('nav').removeClass('nav--open');
-          $('.line1').removeClass('lineStatic');
-          $('.line3').removeClass('lineStatic');
-          }
-      });
-      $('.nav li a').click(function() {
-          if ($('.burger').hasClass('burger')) {
-              $('.burger').removeClass('burger');
-              $('nav').removeClass('nav--open');
-          }
-      });
 
 });
