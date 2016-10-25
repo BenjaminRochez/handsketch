@@ -24,6 +24,42 @@
       color: #FFF;
       width: 90%;
     }
+    .box {
+      .title-container, .title {
+        position: relative;
+        font-size: 75px;
+        letter-spacing: 10px;
+        font-size: 50px;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+      .title-container .inner-inner, .title .inner-inner {
+        display: inline-block;
+        width: auto;
+      }
+      .title-container .inner-inner span, .title .inner-inner span {
+        overflow: hidden;
+      }
+      .mask {
+        overflow: hidden;
+        .inner-title {
+          position: relative;
+          -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+          opacity: 0.9;
+        }
+      }
+      .creative-title {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: light !important;
+        .inner-title {
+          -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+        }
+      }
+    }
     h1{
       margin-top: 0;
       margin: 0;

@@ -4,7 +4,14 @@
 
 <header>
   <div class="content">
-  <h1>Handsketch</h1>
+  <!-- <h1>Handsketch</h1> -->
+  <div class="box">
+    <div class="title-container creative-title mask">
+      <p id="creative" class="inner-title">
+        Creative Agency
+      </p>
+    </div>
+  </div>
   <p>
     The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
   </p>
