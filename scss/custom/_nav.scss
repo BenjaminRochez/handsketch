@@ -78,13 +78,13 @@ nav {
     width: 100%;
   }
   @media (min-width: $md) {
-    transform: translateX(0);
+    transform: translate(0%);
     height: 60px;
     width: 100%;
     max-width: 100%;
+    transition: all .3s ease-out;
     transform: scaleY(0);
     transform-origin: 50% 0;
-    opacity: 0;
   }
   ul {
     width: 100%;
@@ -229,7 +229,6 @@ nav {
 .nav--show {
   transform: scaleY(1);
   transition-duration: .3s;
-  opacity: 1;
 }
 
 @keyframes drawline {
