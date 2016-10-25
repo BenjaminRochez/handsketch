@@ -57,7 +57,7 @@
       color: #FFF;
       font-family: $chat;
       font-size: 75px;
-      padding-top: 150px;
+      padding-top: 100px;
     }
     .btn{
       margin-top: 60px;
@@ -65,7 +65,7 @@
     }
     //---- INTRO BLOCK ----//
     .intro{
-      height: 195vh;
+      height: 100vh;
       width: 100%;
       position: relative;
       display: inline-block;
@@ -88,22 +88,14 @@
         }
 
         }
-      .verticaltext_right {
-        transform: rotate(90deg);
-        width: 450px;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        opacity: .6;
-        font-size: 12px;
-      }
     }
 
     .front_1 {
-      margin-top: 50px;
       max-width: 80%;
       z-index: 2;
-      position: absolute;
+      margin: 150px auto;
+      z-index: 1;
+      position: relative;
       @media (min-width: $lg) {
       max-width: 50%;
       left: 25%;
@@ -120,10 +112,12 @@
       -o-filter: blur(3px);
       -ms-filter: blur(3px);
       filter: blur(3px);
+      display: none;
       @media (min-width: $lg) {
       max-width: 15%;
       top: 0px;
       left: 75%;
+      display: block;
       }
     }
 
@@ -134,6 +128,7 @@
       position: absolute;
       left: 5%;
       bottom: 100px;
+      display: none;
       @media (min-width: $lg) {
       max-width: 30%;
       -webkit-filter: blur(2px);
@@ -141,6 +136,7 @@
       -o-filter: blur(2px);
       -ms-filter: blur(2px);
       filter: blur(2px);
+      display: block;
       }
     }
 
@@ -162,16 +158,6 @@
       overflow: hidden;
       @media (min-width: $lg) {
         padding-bottom: 150px;
-      }
-      .verticaltext_left {
-        transform: rotate(-90deg);
-        width: 450px;
-        display: block;
-        position: absolute;
-        background-color: red;
-        right: 800px;
-        top: 180px;
-        opacity: .6;
       }
       img {
         margin-top: 20px;
@@ -306,6 +292,7 @@
   }
   footer {
     width: 100%;
+    height: auto;
     position: relative;
     padding: 50px 0;
     background: #000;
@@ -323,6 +310,7 @@
       color: #FFF;
       width: 100%;
       margin-top: 59px;
+      text-align: center;
       @media (min-width: $md) {
         float: left;
         width: 25%;
@@ -337,6 +325,7 @@
       font-weight: 300;
       font-size: 26px;
       margin-top: 0px;
+      text-align: center;
       @media (min-width: $md) {
         font-size: 17px;
         width: 50%;
@@ -352,6 +341,7 @@
       color: #FFF;
       display: block;
       margin-top: 10px;
+      text-align: center;
       letter-spacing: 2px;
       transition: all .3s ease-out;
       &:hover, &:active {
@@ -369,10 +359,10 @@
     img {
       width: 50px;
       border-radius: 10px;
-      margin: 0 auto;
-      top: 40px;
+      margin: 40px auto;
       position: relative;
       margin-bottom: 50px;
+      @extend .centerx;
       @media (min-width: $md) {
         width: 2%;
         background-color: yellow;

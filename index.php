@@ -44,7 +44,6 @@
     <p class="first-p">
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
     </p>
-    <small class="verticaltext_right"> The new digital musical instrument </small>
     <div class="images">
       <img src="assets/images/iPadPro.png" class="ipad front_1 animateme" alt=""
       data-when="enter"
@@ -101,7 +100,6 @@
 
   <!-- DEMONSTRATION BLOCK -->
   <div class="demonstration">
-    <small class="verticaltext_left sr"> The new digital musical instrument</small>
     <img src="assets/images/interface_2.png" class="sr"  alt="interface handsketch" />
     <img src="assets/images/interface_1.png" class="sr" alt="interface handsketch" />
   </div>
