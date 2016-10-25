@@ -106,50 +106,29 @@ $(document).ready(function() {
 
 
       /*-----------------------------------------------------------------------------------*/
-      /*	ScrollTo
+      /*	VIDEO
       /*-----------------------------------------------------------------------------------*/
 
-      var sections = [];
-      var id = false;
-      var $navbar = $('#timeline');
-      var $navbara = $('a', $navbar);
-
-      $navbara.click(function(e){
+      $("#closeVideo").click(function(e){
         e.preventDefault();
-        $('html, body').animate({
-          scrollTop: $($(this).attr('href')).offset().top
-        });
-        hash($(this).attr('href'));
+        $('body').removeClass('overflow');
+        console.log('yolo');
+        video.pause();
+        var tl = new TimelineLite();
+        tl.to(".video-wrapper", 0 , {left:'0', width:'100%'})
+        .to(".video-wrapper", 0.5 , {left:'-120%'})
+
       });
 
-      $navbara.each(function(){
-        sections.push($($(this).attr('href')));
+      $("#startVideo").click(function(e){
+        e.preventDefault();
+        $('body').addClass('overflow');
+        video.play();
+        var tl = new TimelineLite();
+        tl.to(".video-wrapper", 0 , {left:'-120%', width:'100%'})
+        .to(".video-wrapper", 0.5 , {left:'0%'})
       });
 
-      $(window).scroll(function(e){
-        var scrollTop = $(this).scrollTop() + ($(window).height() / 2)
-        for(var i in sections){
-          var section = sections[i];
-          if (scrollTop > section.offset().top) {
-            scrolled_id = section.attr('id');
-          }
-        }
-        if (scrolled_id !== id) {
-          id = scrolled_id;
-          $navbara.removeClass('current');
-          hash($('a[href="#' + id + '"]', $navbar).attr('href'));
-          $('a[href="#' + id + '"]', $navbar).addClass('current');
-        }
-      });
-
-
-      hash = function(h) {
-        if (history.pushState) {
-          history.pushState(null, null, h);
-        }else{
-          location.hash = h;
-        }
-      }
 
 
 });
