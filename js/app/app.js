@@ -129,7 +129,7 @@ $(document).ready(function() {
         video.pause();
         var tl = new TimelineLite();
         tl.to(".video-wrapper", 0 , {left:'0', width:'100%'})
-        .to(".video-wrapper", 0.5 , {left:'-120%'})
+        .to(".video-wrapper", 0.5 , {left:'-150%'})
 
       });
 
@@ -138,7 +138,7 @@ $(document).ready(function() {
         $('body').addClass('overflow');
         video.play();
         var tl = new TimelineLite();
-        tl.to(".video-wrapper", 0 , {left:'-120%', width:'100%'})
+        tl.to(".video-wrapper", 0 , {left:'-150%', width:'100%'})
         .to(".video-wrapper", 0.5 , {left:'0%'})
       });
 

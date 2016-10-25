@@ -15,7 +15,7 @@
   <p>
     The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
   </p>
-  <a href="#" class="btn">Decouvrez l'application</a>
+  <a href="#" class="btn" id="startVideo">Decouvrez l'application</a>
   </div>
 
   <!-- BURGER -->
