@@ -22,10 +22,13 @@
   <nav>
     <ul>
       <li class="home">
-        <a href="#">About</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a href="#">Achat</a>
+        <a href="#achat">Achat</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
     <div class="langue">
@@ -37,7 +40,7 @@
 </header>
   <div class="background"></div>
 <!-- SECTION PRESENTATION -->
-<section class="presentation">
+<section id="about" class="presentation">
   <h2 class="h">The new digital musical instrument</h2>
   <!-- INTRO BLOCK -->
   <div class="intro scrollme">
@@ -105,7 +108,7 @@
   </div>
 
   <!--  BLOCK BANNERWHITE -->
-  <div class="bannerwhite sr">
+  <div id="achat" class="bannerwhite sr">
     <h2>Handsketch<span>musical instrument</span></h2>
     <p>
       This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
@@ -123,7 +126,7 @@
 </section>
 
 
-  <footer>
+  <footer id="contact">
     <h3>
       Hovertone
     </h3>
