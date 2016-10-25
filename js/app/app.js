@@ -43,6 +43,7 @@ $(document).ready(function() {
           if ($('.burger').hasClass('burgerCross')) {
               $('.burger').removeClass('burgerCross');
               $('nav').removeClass('nav--open');
+              $('nav ul li a').addClass('current');
           }
       });
 
@@ -63,12 +64,12 @@ $(document).ready(function() {
 
       $(window).scroll(function() {
        if ($(window).scrollTop() > 400) {
-           $('nav').addClass('nav--show');
+           $('nav').addClass('nav--show ');
        }
        else {
-       $('nav').removeClass('nav--show');
+       $('nav').removeClass('nav--show  ');
        }
-   });
+     });
 
 
       /*-----------------------------------------------------------------------------------*/
@@ -80,6 +81,18 @@ $(document).ready(function() {
         tl.to("#animTitle", 0.5 , {width:"0", delay: '0.5'})
         .to("#animSubtitle", 0.5 , {width:"0", delay: '-0.4'})
       };
+
+      /*-----------------------------------------------------------------------------------*/
+      /*	AnimTitle Header
+      /*-----------------------------------------------------------------------------------*/
+
+
+        function textAppear(){
+          var tl = new TimelineLite();
+          tl.to('.text', 0.7,{transform: "translateY(0px), opacity: '1', ease:Expo.easeOut"})
+          .to("#creative", 1, {transform: "translateY(0px)", opacity:'1', ease: Expo.easeOut, delay:'-0.7'})
+        };
+        textAppear();
 
       /*-----------------------------------------------------------------------------------*/
       /*	ScrollReveal
@@ -128,7 +141,6 @@ $(document).ready(function() {
         tl.to(".video-wrapper", 0 , {left:'-120%', width:'100%'})
         .to(".video-wrapper", 0.5 , {left:'0%'})
       });
-
 
 
 });

@@ -1,14 +1,47 @@
 <?php include 'pages/head.php' ?>
 
-<body id="handsketch" class="">
+<body id="handsketch">
 
-  <header>
-    <div class="content">
-      <h1>Handsketch</h1>
-      <p>
-        The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
+<header>
+  <div class="content">
+  <!-- <h1>Handsketch</h1> -->
+  <div class="box">
+    <div class="title-container creative-title mask">
+      <p id="creative" class="inner-title">
+        Creative Agency
       </p>
-      <a href="#" class="btn" id="startVideo">Decouvrez l'application</a>
+    </div>
+  </div>
+  <p>
+    The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
+  </p>
+  <a href="#" class="btn">Decouvrez l'application</a>
+  </div>
+
+  <!-- BURGER -->
+  <div class="burger">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+  </div>
+
+  <!-- MAIN NAV -->
+  <nav>
+    <ul>
+      <li class="home">
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#achat">Achat</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <div class="langue">
+      <a href="#">FR</a>
+      <a href="#">NL</a>
+
     </div>
 
     <!-- BURGER -->

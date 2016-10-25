@@ -24,14 +24,53 @@
       color: #FFF;
       width: 90%;
     }
+    .box {
+      .title-container, .title {
+        position: relative;
+        font-size: 75px;
+        letter-spacing: 10px;
+        font-size: 50px;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+      .title-container .inner-inner, .title .inner-inner {
+        display: inline-block;
+        width: auto;
+      }
+      .title-container .inner-inner span, .title .inner-inner span {
+        overflow: hidden;
+      }
+      .mask {
+        overflow: hidden;
+        .inner-title {
+          position: relative;
+          -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+          opacity: 0.9;
+        }
+      }
+      .creative-title {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: light !important;
+        .inner-title {
+          -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+        }
+      }
+    }
     h1{
       margin-top: 0;
       margin: 0;
-      font-size: 80px;
+      font-size: 50px;
+      text-transform: uppercase;
       letter-spacing: 10px;
+      transition: all .3s ease-out;
+      animation: yolo 1s forwards;
       @media (min-width: $xl) {
         letter-spacing: 40px;
-        font-size: 200px;
+        font-size: 100px;
       }
     }
     p {
@@ -166,7 +205,8 @@
       p{
         font-size: 30px;
         color: #FFF;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         @media (min-width: $md) {
           max-width: 600px;
           text-align: center;
@@ -190,7 +230,10 @@
         width: 80%;
         margin-right: 20%;
         z-index: 2;
-        box-shadow: 4px 4px 50px rgba(255,255,255,.5);
+        box-shadow: -10px 20px 50px  rgba(95,189,198, .2);
+        &:last-child {
+          box-shadow: 10px 20px 50px  rgba(95,189,198, .2);
+        }
         &:nth-child(odd) {
           margin-left: 20%;
           right: 0;
@@ -536,10 +579,6 @@
 //     transform: rotate(360deg);
 //   }
 // }
-
-
-
-
 
 html, body, #video-container{
   position: relative;

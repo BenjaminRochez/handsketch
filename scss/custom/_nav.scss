@@ -144,7 +144,7 @@ nav {
               border: 2px solid $azur;
           }
         }
-        &:hover {
+        &:hover, &:active {
           color: #FFF;
           &:after {
             content: "";
