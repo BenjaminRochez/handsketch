@@ -37,6 +37,11 @@
     p {
       line-height: 28px;
       font-size: 30px;
+      @media (min-width: $md) {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
       @media (min-width: $xl) {
         max-width: 600px;
         margin: 0 auto;
@@ -65,16 +70,23 @@
     }
     //---- INTRO BLOCK ----//
     .intro{
-      height: 100vh;
+      height: 195vh;
       width: 100%;
-      position: relative;
       display: inline-block;
+      @media (min-width: $md) {
+        height: 150vh;
+      }
       p.first-p{
         font-size: 30px;
         color: #FFF;
         width: 90%;
         z-index: 99;
         @extend .centerx;
+        @media (min-width: $md) {
+          max-width: 600px;
+          margin: 0 auto;
+          text-align: center;
+        }
         @media (min-width: $xl) {
           position: absolute;
           top: 300px;
@@ -98,8 +110,7 @@
       position: relative;
       @media (min-width: $lg) {
       max-width: 50%;
-      left: 25%;
-      margin-top: 150px;
+      margin: 150px auto;
       }
     }
 
@@ -115,7 +126,7 @@
       display: none;
       @media (min-width: $lg) {
       max-width: 15%;
-      top: 0px;
+      top: 200px;
       left: 75%;
       display: block;
       }
@@ -131,6 +142,7 @@
       display: none;
       @media (min-width: $lg) {
       max-width: 30%;
+      top: 1000px;
       -webkit-filter: blur(2px);
       -moz-filter: blur(2px);
       -o-filter: blur(2px);
@@ -147,6 +159,11 @@
         font-size: 30px;
         color: #FFF;
         width: 100%;
+        @media (min-width: $md) {
+          max-width: 600px;
+          text-align: center;
+          margin: 0 auto;
+        }
       }
     }
 
@@ -154,6 +171,7 @@
     .demonstration {
       width: 100%;
       position: relative;
+      z-index: 1;
       padding-bottom: 50px;
       overflow: hidden;
       @media (min-width: $lg) {
@@ -185,6 +203,7 @@
       padding-top: 50px;
       background-color: #FFF;
       position: relative;
+      z-index: 2;
       &:before {
         content: "";
         display: block;
@@ -239,6 +258,7 @@
         @media (min-width: $lg) {
           max-width: 500px;
           text-align: left;
+          margin: 0;
           margin-left: 90px;
           margin-top: 10px;
         }
@@ -263,7 +283,7 @@
           margin: 0;
           float: right;
           position: relative;
-          bottom: 130px;
+          bottom: 100px;
           right: 80px;
         }
       }
@@ -274,7 +294,7 @@
         @media (min-width: $lg) {
           float: right;
           position: relative;
-          bottom: 80px;
+          bottom: 40px;
           left: 85px;
           margin: 10px 0;
           padding: 0;
@@ -319,6 +339,7 @@
         padding: 20px 0;
         margin-top: 0;
         font-size: 20px;
+        text-align: center;
       }
     }
     p{
@@ -333,6 +354,7 @@
         padding: 16px 0;
         float: left;
         font-size: 25px;
+        text-align: center;
       }
     }
     a {
@@ -354,6 +376,7 @@
         padding: 21px 0;
         margin-top: 0;
         font-size: 15px;
+        text-align: center;
       }
     }
     img {
@@ -367,9 +390,9 @@
         width: 2%;
         background-color: yellow;
         margin-bottom: 0;
-        float: right;
-        margin-right: 3%;
         top: 0;
+        position: absolute;
+        left: 95%;
         margin-bottom: 0;
         margin-top: 18px;
         border-radius: 4px;
