@@ -61,6 +61,15 @@ $(document).ready(function() {
           event.preventDefault();
       });
 
+      $(window).scroll(function() {
+       if ($(window).scrollTop() > 400) {
+           $('nav').addClass('nav--show');
+       }
+       else {
+       $('nav').removeClass('nav--show');
+       }
+   });
+
 
       /*-----------------------------------------------------------------------------------*/
       /*	AnimTitle

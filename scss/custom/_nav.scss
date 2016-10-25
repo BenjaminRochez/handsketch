@@ -82,6 +82,9 @@ nav {
     height: 60px;
     width: 100%;
     max-width: 100%;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    opacity: 0;
   }
   ul {
     width: 100%;
@@ -221,6 +224,12 @@ nav {
 
 .nav--open {
   transform: translate(0%);
+}
+
+.nav--show {
+  transform: scaleY(1);
+  transition-duration: .3s;
+  opacity: 1;
 }
 
 @keyframes drawline {
