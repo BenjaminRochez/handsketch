@@ -127,19 +127,31 @@ $(document).ready(function() {
         $('body').removeClass('overflow');
         console.log('yolo');
         video.pause();
+        $("#play-pause").html('<i class="fa fa-play" aria-hidden="true"></i>');
         var tl = new TimelineLite();
         tl.to(".video-wrapper", 0 , {left:'0', width:'100%'})
-        .to(".video-wrapper", 0.5 , {left:'-120%'})
-
+        .to("#video", 0, {display: 'none'})
+        .to(".blackBord", 0.5 , {height: '0'})
+        .to(".blackBord", 0 , {display: 'none'})
+        .to(".afterVid", 0.4, {height: '0'})
+        .to(".beforeVid", 0.4, {height: '0', delay: '-0.4'})
+        .to(".video-wrapper", 0, {display: 'none'})
       });
 
       $("#startVideo").click(function(e){
         e.preventDefault();
         $('body').addClass('overflow');
+        setTimeout(function() {
         video.play();
+      }, 1000);
+        $("#play-pause").html('<i class="fa fa-pause" aria-hidden="true"></i>');
         var tl = new TimelineLite();
-        tl.to(".video-wrapper", 0 , {left:'-120%', width:'100%'})
-        .to(".video-wrapper", 0.5 , {left:'0%'})
+        tl.to(".video-wrapper", 0 , {display: 'block'})
+        .to(".afterVid", 0.4, {height: '50%'})
+        .to(".beforeVid", 0.4, {height: '50%', delay: '-0.4'})
+        .to(".blackBord", 0 , {display: 'block'})
+        .to(".blackBord", 0.5 , {height: '50'})
+        .to("#video", 0, {display: 'block'})
       });
 
 
