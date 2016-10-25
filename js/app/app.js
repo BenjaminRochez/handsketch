@@ -43,6 +43,7 @@ $(document).ready(function() {
           if ($('.burger').hasClass('burgerCross')) {
               $('.burger').removeClass('burgerCross');
               $('nav').removeClass('nav--open');
+              $('nav ul li a').addClass('current');
           }
       });
 
@@ -63,12 +64,12 @@ $(document).ready(function() {
 
       $(window).scroll(function() {
        if ($(window).scrollTop() > 400) {
-           $('nav').addClass('nav--show');
+           $('nav').addClass('nav--show ');
        }
        else {
-       $('nav').removeClass('nav--show');
+       $('nav').removeClass('nav--show  ');
        }
-   });
+     });
 
 
       /*-----------------------------------------------------------------------------------*/
