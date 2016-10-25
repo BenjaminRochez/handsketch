@@ -83,7 +83,7 @@ nav {
     width: 100%;
     max-width: 100%;
     transition: all .3s ease-out;
-    transform: scaleY(0);
+    opacity: 0;
     transform-origin: 50% 0;
   }
   ul {
@@ -227,7 +227,7 @@ nav {
 }
 
 .nav--show {
-  transform: scaleY(1);
+  opacity: 1;
   transition-duration: .3s;
 }
 
