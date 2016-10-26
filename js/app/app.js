@@ -130,12 +130,14 @@ $(document).ready(function() {
         $("#play-pause").html('<i class="fa fa-play" aria-hidden="true"></i>');
         var tl = new TimelineLite();
         tl.to(".video-wrapper", 0 , {left:'0', width:'100%'})
+
         .to("#video", 0, {display: 'none'})
         .to(".blackBord", 0.5 , {height: '0'})
         .to(".blackBord", 0 , {display: 'none'})
         .to(".afterVid", 0.4, {height: '0'})
         .to(".beforeVid", 0.4, {height: '0', delay: '-0.4'})
         .to(".video-wrapper", 0, {display: 'none'})
+
       });
 
       $("#startVideo").click(function(e){
