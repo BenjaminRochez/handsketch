@@ -371,7 +371,6 @@
     width: 100%;
     height: auto;
     position: relative;
-    top: 500px;
     padding: 50px 0;
     background: #000;
     z-index: 10;
@@ -379,10 +378,9 @@
     @media (min-width: $md) {
       padding: 0;
       height: 60px;
-      top: 800px;
       margin: 0;
       padding: 0 !important;
-      z-index: 999999; 
+      z-index: 999999;
 
     }
     h3 {
