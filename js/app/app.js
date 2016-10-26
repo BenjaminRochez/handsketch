@@ -111,8 +111,8 @@ $(document).ready(function() {
       /*-----------------------------------------------------------------------------------*/
       function textAppear(){
           var tl = new TimelineLite();
-          tl.to('.text', 0.7,{transform: "translateY(0px), opacity: '1', ease:Expo.easeOut"})
-          .to("#creative", 1, {transform: "translateY(0px)", opacity:'1', ease: Expo.easeOut, delay:'-0.7'})
+          tl.to('#creative', 0.7, {transform: 'translateY(0px)', opacity:'1', ease: Expo.easeOut, delay: '0.5'})
+          .to('.text', 0.7, {transform: 'translateY(0px)', opacity: '1', ease:Expo.easeOut, delay: '-0.3'})
         };
         textAppear();
 
@@ -178,6 +178,7 @@ $(document).ready(function() {
         .to("#video", 0, {display: 'block'})
       });
 
+<<<<<<< HEAD
 
 
 
@@ -188,4 +189,6 @@ $(document).ready(function() {
 
 
 
+=======
+>>>>>>> 1e81e91e90d2a69f826a35bfae9e6603c514f535
 });
