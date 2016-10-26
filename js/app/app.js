@@ -45,9 +45,9 @@ $(document).ready(function() {
         var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
         var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
         var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-        var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '130', repeat: -1, ease: 'linear'});
+        var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '360', repeat: -1, ease: 'linear'});
         var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
-        var tween4 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+        var tween5 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
   	  }
 
 
@@ -178,17 +178,4 @@ $(document).ready(function() {
         .to("#video", 0, {display: 'block'})
       });
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 1e81e91e90d2a69f826a35bfae9e6603c514f535
 });
