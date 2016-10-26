@@ -40,17 +40,7 @@ $(document).ready(function() {
       /*	Round Animation
       /*-----------------------------------------------------------------------------------*/
 
-      // window.onload = function() {
-      //   var listRound = new Array("#animeRound", "#animeRound2", "#animeRound3", "#animeRound4", "#animeRound5", "#animeRound6");
-      //   var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-      //   var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
-      //   var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-      //   var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '130', repeat: -1, ease: 'linear'});
-      //   var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
-      //   var tween4 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-  	  // }
 
-      //ANIMATED ONLY CIRCLE BLOCK
 
       window.onload = function() {
         var tl = new TimelineLite();
