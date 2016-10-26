@@ -60,6 +60,10 @@
         }
       }
     }
+    .text{
+      opacity: 0;
+      transform: translateY(20px);
+    }
     h1{
       margin-top: 0;
       margin: 0;
@@ -393,7 +397,7 @@
       color: #FFF;
       width: 100%;
       margin-top: 59px;
-      text-align: center; 
+      text-align: center;
       @media (min-width: $md) {
         float: left;
         width: 25%;
@@ -601,6 +605,8 @@
   }
 }
 
+//handsketch
+
 // @keyframes turn {
 //    0% {
 //      transform: rotate(0deg);
@@ -710,6 +716,7 @@ input[type="range"]::-ms-fill-upper {
       height: 100vh;
       background-color: #000;
     }
+
 }
 
 .overlow{
@@ -777,4 +784,5 @@ input[type="range"]::-ms-fill-upper {
       color: #FFF;
     }
   }
+
 }

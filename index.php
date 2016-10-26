@@ -7,12 +7,11 @@
   <!-- <h1>Handsketch</h1> -->
   <div class="box">
     <div class="title-container creative-title mask">
-      <p id="creative" class="inner-title">
-        Creative Agency
-      </p>
+      <h1 id="creative" class="inner-title">
+        Handsketch</h1>
     </div>
   </div>
-  <p>
+  <p class="text">
     The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
   </p>
   <a href="#" class="btn" id="startVideo">Decouvrez l'application</a>
@@ -142,6 +141,7 @@
 
     <!--  BLOCK BANNERWHITE -->
     <div id="achat" class="bannerwhite sr">
+
       <h2>Handsketch<span>musical instrument</span></h2>
       <p>
         This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
@@ -157,6 +157,8 @@
       <a href="#" class="btn">Decouvrez l'application</a>
     </p>
   </section>
+
+
 
 
 <!-- Video -->
