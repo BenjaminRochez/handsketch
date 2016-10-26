@@ -84,23 +84,23 @@
     <!--ANIMATION CIRCLE-->
     <div class="circle">
       <ul>
-        <li class="round">
-          <span></span>
+        <li id="animeRound" class="round">
+          <span id="point"></span>
         </li>
-        <li class="round">
-          <span></span>
+        <li id="animeRound2" class="round">
+          <span id="point"></span>
         </li>
-        <li class="round">
-          <span></span>
+        <li id="animeRound3" class="round">
+          <span id="point"></span>
         </li>
-        <li class="round">
-          <span></span>
+        <li id="animeRound4" class="round">
+          <span id="point"></span>
         </li>
-        <li class="round">
-          <span></span>
+        <li id="animeRound5" class="round">
+          <span id="point"></span>
         </li>
-        <li class="round">
-          <span></span>
+        <li id="animeRound6" class="round">
+          <span id="point"></span>
         </li>
       </ul>
     </div>

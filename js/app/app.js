@@ -37,6 +37,28 @@ $(document).ready(function() {
 
       /*-----------------------------------------------------------------------------------*/
       /*-----------------------------------------------------------------------------------*/
+      /*	Round Animation
+      /*-----------------------------------------------------------------------------------*/
+
+      window.onload = function() {
+        var listRound = new Array("#animeRound", "#animeRound2", "#animeRound3", "#animeRound4", "#animeRound5", "#animeRound6");
+        var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+        var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
+        var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+        var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '130', repeat: -1, ease: 'linear'});
+        var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
+        var tween4 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+  	  }
+
+
+
+
+
+
+
+
+      /*-----------------------------------------------------------------------------------*/
+      /*-----------------------------------------------------------------------------------*/
       /*	Autoclose nav
       /*-----------------------------------------------------------------------------------*/
       $('nav ul li a').click(function() {
@@ -82,12 +104,12 @@ $(document).ready(function() {
         .to("#animSubtitle", 0.5 , {width:"0", delay: '-0.4'})
       };
 
+
+
       /*-----------------------------------------------------------------------------------*/
       /*	AnimTitle Header
       /*-----------------------------------------------------------------------------------*/
-
-
-        function textAppear(){
+      function textAppear(){
           var tl = new TimelineLite();
           tl.to('.text', 0.7,{transform: "translateY(0px), opacity: '1', ease:Expo.easeOut"})
           .to("#creative", 1, {transform: "translateY(0px)", opacity:'1', ease: Expo.easeOut, delay:'-0.7'})
@@ -155,6 +177,15 @@ $(document).ready(function() {
         .to(".blackBord", 0.5 , {height: '50'})
         .to("#video", 0, {display: 'block'})
       });
+
+
+
+
+
+
+
+
+
 
 
 });
