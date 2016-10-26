@@ -158,11 +158,17 @@
     </p>
   </section>
 
+
+<!-- Video -->
   <section class="video-wrapper">
     <div id="video-container">
-      <div class="top"><a id="closeVideo" href="#" disableScroll()><i class="fa fa-times" aria-hidden="true"></i> Fermer </a></div>
+      <span class="beforeVid overlayVid"></span>
+      <span class="afterVid overlayVid"></span>
+      <div class="top blackBord">
+        <a id="closeVideo" href="#" disableScroll()><i class="fa fa-times" aria-hidden="true"></i> Fermer </a>
+      </div>
 
-      <!-- Video -->
+
       <video id="video" width="640" height="365" ontimeupdate="myFunction(this)">
         <source src="http://squiweb.be/diplostudio/hovertone.mp4" type="video/mp4">
           <p>
@@ -171,7 +177,7 @@
           </p>
         </video>
         <!-- Video Controls -->
-        <div class="bottom">
+        <div class="bottom blackBord">
           <div id="video-controls" >
             <button type="button" id="play-pause"><i class="fa fa-play" aria-hidden="true"></i> </button>
             <input type="range" id="seek-bar" value="0">
@@ -194,4 +200,4 @@
       <a href="#">Contact us</a>
       <img src="assets/images/logo_handsketch.png" alt="logo handsketch" />
     </footer>
-    <?php include 'pages/end.php' ?>
+<?php include 'pages/end.php' ?>
