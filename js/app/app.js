@@ -40,22 +40,23 @@ $(document).ready(function() {
       /*	Round Animation
       /*-----------------------------------------------------------------------------------*/
 
+      // window.onload = function() {
+      //   var listRound = new Array("#animeRound", "#animeRound2", "#animeRound3", "#animeRound4", "#animeRound5", "#animeRound6");
+      //   var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+      //   var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
+      //   var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+      //   var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '130', repeat: -1, ease: 'linear'});
+      //   var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
+      //   var tween4 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
+  	  // }
+
+      //ANIMATED ONLY CIRCLE BLOCK
+
       window.onload = function() {
-        var listRound = new Array("#animeRound", "#animeRound2", "#animeRound3", "#animeRound4", "#animeRound5", "#animeRound6");
-        var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-        var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
-        var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-        var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '130', repeat: -1, ease: 'linear'});
-        var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
-        var tween4 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-  	  }
-
-
-
-
-
-
-
+        var tl = new TimelineLite();
+        tl.to("circle", 0, {rotation:"360", repeat: -1, ease: 'linear'})
+        .to("#circle", 10 , {rotation:"360", repeat: -1, ease: 'linear'})
+      }
 
       /*-----------------------------------------------------------------------------------*/
       /*-----------------------------------------------------------------------------------*/
@@ -111,8 +112,8 @@ $(document).ready(function() {
       /*-----------------------------------------------------------------------------------*/
       function textAppear(){
           var tl = new TimelineLite();
-          tl.to('#creative', 0.7, {transform: 'translateY(0px)', opacity:'1', ease: Expo.easeOut, delay: '0.5'})
-          .to('.text', 0.7, {transform: 'translateY(0px)', opacity: '1', ease:Expo.easeOut, delay: '-0.3'})
+          tl.to(".text", 0.7,{transform: "translateY(0px), opacity: '1', ease:Expo.easeOut"})
+          .to("#creative", 1, {transform: "translateY(0px), opacity:'1', ease:Expo.easeOut", delay:'-0.7'})
         };
         textAppear();
 
@@ -178,17 +179,4 @@ $(document).ready(function() {
         .to("#video", 0, {display: 'block'})
       });
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 1e81e91e90d2a69f826a35bfae9e6603c514f535
 });

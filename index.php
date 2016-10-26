@@ -8,13 +8,13 @@
   <div class="box">
     <div class="title-container creative-title mask">
       <h1 id="creative" class="inner-title">
-        Handsketch</h1>
+        HandSketch</h1>
     </div>
   </div>
   <p class="text">
     The HandSketch is finally out for sale! HandSketch is a new digital musical instrument that gives to a musician the possibility to play artificial singing voice on stage and in studio.
   </p>
-  <a href="#" class="btn" id="startVideo">Decouvrez l'application</a>
+  <a href="#" class="btn" id="startVideo">Watch the video</a>
   </div>
 
   <!-- BURGER -->
@@ -31,15 +31,17 @@
         <a href="#about">About</a>
       </li>
       <li>
-        <a href="#achat">Achat</a>
+        <a href="#contact">Contact</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a href="#achat" class="buy">
+          <img src="assets/images/appstoreBlack.png" alt="appstore logo" />
+        </a>
       </li>
     </ul>
     <div class="langue">
       <a href="#">FR</a>
-      <a href="#">NL</a>
+      <a href="#">EN</a>
     </div>
   </nav>
 
@@ -81,7 +83,7 @@
     </div>
 
     <!--ANIMATION CIRCLE-->
-    <div class="circle">
+    <div class="circle" id="circle">
       <ul>
         <li id="animeRound" class="round">
           <span id="point"></span>

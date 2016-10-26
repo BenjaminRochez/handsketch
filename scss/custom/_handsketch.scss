@@ -30,7 +30,6 @@
         font-size: 75px;
         letter-spacing: 10px;
         font-size: 50px;
-        text-transform: uppercase;
         display: inline-block;
       }
       .title-container .inner-inner, .title .inner-inner {
@@ -49,10 +48,11 @@
           opacity: 0.9;
         }
       }
-      .creative-title { 
+      .creative-title {
         display: block;
         font-size: 20px;
         letter-spacing: 5px;
+        text-transform: capitalize !important;
         font-weight: light !important;
         .inner-title {
           -webkit-transform: translateY(100px);
@@ -67,14 +67,18 @@
     h1{
       margin-top: 0;
       margin: 0;
-      font-size: 50px;
-      text-transform: uppercase;
+      font-size: 70px;
+      text-transform: capitalize;
       letter-spacing: 10px;
       transition: all .3s ease-out;
       animation: yolo 1s forwards;
-      @media (min-width: $xl) {
-        letter-spacing: 40px;
+      @media (min-width: $md) {
+        letter-spacing: 12px;
         font-size: 100px;
+      }
+      @media (min-width: $xl) {
+        letter-spacing: 15px;
+        font-size: 150px;
       }
     }
     p {
@@ -437,18 +441,18 @@
       display: block;
       margin-top: 10px;
       text-align: center;
+      font-family: $chat;
       letter-spacing: 2px;
       transition: all .3s ease-out;
       &:hover, &:active {
-        text-decoration: line-through;
-        color: #FFF;
+        color: $azur;
       }
       @media (min-width: $md) {
         float: left;
         width: 25%;
-        padding: 21px 0;
+        padding: 17px 0;
         margin-top: 0;
-        font-size: 15px;
+        font-size: 25px;
         font-weight: 300;
         text-align: center;
         &:after {
@@ -600,20 +604,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-//handsketch
-
-// @keyframes turn {
-//    0% {
-//      transform: rotate(0deg);
-//    }
-//    100% {
-//      transform: rotate(360deg);
-//    }
-// }
-
->>>>>>> 1e81e91e90d2a69f826a35bfae9e6603c514f535
 html, body, #video-container{
   position: relative;
   height: 100%;
