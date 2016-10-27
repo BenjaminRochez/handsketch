@@ -35,7 +35,7 @@
       </li>
       <li>
         <a href="#achat" class="buy">
-          <img src="assets/images/appstoreBlack.png" alt="appstore logo" />
+          <img src="assets/images/appstoreBlack.png" alt="appstore logo" data-rjs="2"/>
         </a>
       </li>
     </ul>
@@ -60,16 +60,19 @@
         data-when="enter"
         data-from="0"
         data-to="2"
+        data-rjs="2"
         data-translatey="200" />
         <img src="assets/images/iPadPro.png" class="ipad front_2 animateme" alt=""
         data-when="enter"
         data-from="0"
+        data-rjs="2"
         data-to="1.5"
         data-translatey="-550" />
         <img src="assets/images/ipad_perspective_black.png" class="ipad front_3 animateme" alt=""
         data-when="enter"
         data-from="0.9"
         data-to="2.5"
+        data-rjs="2"
         data-translatey="-450" />
       </div>
     </div>
@@ -111,8 +114,8 @@
 
     <!-- DEMONSTRATION BLOCK -->
     <div class="demonstration">
-      <img src="assets/images/interface_2.png" class="sr"  alt="interface handsketch" />
-      <img src="assets/images/interface_1.png" class="sr" alt="interface handsketch" />
+      <img src="assets/images/interface_2.png" data-rjs="2" class="sr"  alt="interface handsketch" />
+      <img src="assets/images/interface_1.png" data-rjs="2" class="sr" alt="interface handsketch" />
     </div>
 
     <!--  BLOCK BANNERWHITE -->
@@ -123,8 +126,8 @@
         This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
       </p>
       <div class="store">
-        <a href="#"><img src="assets/images/appstore.png" alt="logo appstore"/></a>
-        <a href="#"><img src="assets/images/logo_handsketch.png" alt="logo handsketch"/></a>
+        <a href="#"><img src="assets/images/appstore.png" data-rjs="2" alt="logo appstore"/></a>
+        <a href="#"><img src="assets/images/logo_handsketch.png" data-rjs="2" alt="logo handsketch"/></a>
       </div>
       <h3>Telechargez Handsketch</h3>
     </div>
@@ -176,6 +179,6 @@
         Made with humans by diplostudio
       </p>
       <a href="#">Contact us</a>
-      <img src="assets/images/logo_handsketch.png" alt="logo handsketch" />
+      <img src="assets/images/logo_handsketch.png" data-rjs="2" alt="logo handsketch" />
     </footer>
 <?php include 'pages/end.php' ?>
