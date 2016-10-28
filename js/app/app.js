@@ -6,6 +6,7 @@ $(document).ready(function() {
       /*	2. ScrollReveal
       /*	3. ScrollTo
       /*  4. NAV
+      /*  5. retinajs
       /*
       /*
       /*-----------------------------------------------------------------------------------*/
@@ -40,22 +41,13 @@ $(document).ready(function() {
       /*	Round Animation
       /*-----------------------------------------------------------------------------------*/
 
+
+
       window.onload = function() {
-        var listRound = new Array("#animeRound", "#animeRound2", "#animeRound3", "#animeRound4", "#animeRound5", "#animeRound6");
-        var tween = TweenMax.to(listRound[0], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-        var tween1 = TweenMax.to(listRound[1], 5 , {rotation: '310', repeat: -1, ease: 'linear'});
-        var tween2 = TweenMax.to(listRound[2], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-        var tween3 = TweenMax.to(listRound[3], 5 , {rotation: '360', repeat: -1, ease: 'linear'});
-        var tween4 = TweenMax.to(listRound[4], 5 , {rotation: '315', repeat: -1, ease: 'linear'});
-        var tween5 = TweenMax.to(listRound[5], 5 , {rotation: '350', repeat: -1, ease: 'linear'});
-  	  }
-
-
-
-
-
-
-
+        var tl = new TimelineLite();
+        tl.to("circle", 0, {rotation:"360", repeat: -1, ease: 'linear'})
+        .to("#circle", 10 , {rotation:"360", repeat: -1, ease: 'linear'})
+      }
 
       /*-----------------------------------------------------------------------------------*/
       /*-----------------------------------------------------------------------------------*/
@@ -105,14 +97,13 @@ $(document).ready(function() {
       };
 
 
-
       /*-----------------------------------------------------------------------------------*/
       /*	AnimTitle Header
       /*-----------------------------------------------------------------------------------*/
       function textAppear(){
           var tl = new TimelineLite();
-          tl.to('#creative', 0.7, {transform: 'translateY(0px)', opacity:'1', ease: Expo.easeOut, delay: '0.5'})
-          .to('.text', 0.7, {transform: 'translateY(0px)', opacity: '1', ease:Expo.easeOut, delay: '-0.3'})
+          tl.to(".text", 0.7,{transform: "translateY(0px), opacity: '1', ease:Expo.easeOut"})
+          .to("#creative", 1, {transform: "translateY(0px), opacity:'1', ease:Expo.easeOut", delay:'-0.7'})
         };
         textAppear();
 
@@ -177,5 +168,155 @@ $(document).ready(function() {
         .to(".blackBord", 0.5 , {height: '50'})
         .to("#video", 0, {display: 'block'})
       });
+
+      /*-----------------------------------------------------------------------------------*/
+      /*	RETINA JS
+      /*-----------------------------------------------------------------------------------*/
+
+      window.devicePixelRatio = 2;
+
+      (function() {
+
+        var root = (typeof exports == 'undefined' ? window : exports);
+
+        var config = {
+          // Ensure Content-Type is an image before trying to load @2x image
+          // https://github.com/imulus/retinajs/pull/45)
+          check_mime_type: true
+        };
+
+
+
+        root.Retina = Retina;
+
+        function Retina() {}
+
+        Retina.configure = function(options) {
+          if (options == null) options = {};
+          for (var prop in options) config[prop] = options[prop];
+        };
+
+        Retina.init = function(context) {
+          if (context == null) context = root;
+
+          var existing_onload = context.onload || new Function;
+
+          context.onload = function() {
+            var images = document.getElementsByTagName("img"), retinaImages = [], i, image;
+            for (i = 0; i < images.length; i++) {
+              image = images[i];
+              retinaImages.push(new RetinaImage(image));
+            }
+            existing_onload();
+          }
+        };
+
+        Retina.isRetina = function(){
+          var mediaQuery = "(-webkit-min-device-pixel-ratio: 1.5),\
+                            (min--moz-device-pixel-ratio: 1.5),\
+                            (-o-min-device-pixel-ratio: 3/2),\
+                            (min-resolution: 1.5dppx)";
+
+          if (root.devicePixelRatio > 1)
+            return true;
+
+          if (root.matchMedia && root.matchMedia(mediaQuery).matches)
+            return true;
+
+          return false;
+        };
+
+
+        root.RetinaImagePath = RetinaImagePath;
+
+        function RetinaImagePath(path, at_2x_path) {
+          this.path = path;
+          if (typeof at_2x_path !== "undefined" && at_2x_path !== null) {
+            this.at_2x_path = at_2x_path;
+            this.perform_check = false;
+          } else {
+            this.at_2x_path = path.replace(/\.\w+$/, function(match) { return "@2x" + match; });
+            this.perform_check = true;
+          }
+        }
+
+        RetinaImagePath.confirmed_paths = [];
+
+        RetinaImagePath.prototype.is_external = function() {
+          return !!(this.path.match(/^https?\:/i) && !this.path.match('//' + document.domain) )
+        }
+
+        RetinaImagePath.prototype.check_2x_variant = function(callback) {
+          var http, that = this;
+          if (this.is_external()) {
+            return callback(false);
+          } else if (!this.perform_check && typeof this.at_2x_path !== "undefined" && this.at_2x_path !== null) {
+            return callback(true);
+          } else if (this.at_2x_path in RetinaImagePath.confirmed_paths) {
+            return callback(true);
+          } else {
+            http = new XMLHttpRequest;
+            http.open('HEAD', this.at_2x_path);
+            http.onreadystatechange = function() {
+              if (http.readyState != 4) {
+                return callback(false);
+              }
+
+              if (http.status >= 200 && http.status <= 399) {
+                if (config.check_mime_type) {
+                  var type = http.getResponseHeader('Content-Type');
+                  if (type == null || !type.match(/^image/i)) {
+                    return callback(false);
+                  }
+                }
+
+                RetinaImagePath.confirmed_paths.push(that.at_2x_path);
+                return callback(true);
+              } else {
+                return callback(false);
+              }
+            }
+            http.send();
+          }
+        }
+
+
+
+        function RetinaImage(el) {
+          this.el = el;
+          this.path = new RetinaImagePath(this.el.getAttribute('src'), this.el.getAttribute('data-at2x'));
+          var that = this;
+          this.path.check_2x_variant(function(hasVariant) {
+            if (hasVariant) that.swap();
+          });
+        }
+
+        root.RetinaImage = RetinaImage;
+
+        RetinaImage.prototype.swap = function(path) {
+          if (typeof path == 'undefined') path = this.path.at_2x_path;
+
+          var that = this;
+          function load() {
+            if (! that.el.complete) {
+              setTimeout(load, 5);
+            } else {
+              that.el.setAttribute('width', that.el.offsetWidth);
+              that.el.setAttribute('height', that.el.offsetHeight);
+              that.el.setAttribute('src', path);
+            }
+          }
+          load();
+        }
+
+        if (Retina.isRetina()) {
+          Retina.init(root);
+        }
+
+      })();
+
+
+
+
 
 });

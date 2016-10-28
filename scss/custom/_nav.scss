@@ -136,6 +136,7 @@ nav {
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
+        cursor: pointer;
         transition: all .6s ease-out;
         @media (min-width: $md) {
           font-size: 20px;
@@ -177,6 +178,24 @@ nav {
           font-size: 13px;
           opacity: 0;
           transform: translateY(10px);
+        }
+      }
+      .buy {
+        padding: 0;
+        height: 40px;
+        margin-top: 10px;
+        border: 2px solid $azur;
+        border-radius: 40px;
+        img {
+          width: 100px;
+          margin: 0;
+          border-radius: 60px;
+        }
+        &:hover, &:active {
+          background-color: $azur;
+          &:after {
+            display: none;
+          }
         }
       }
     }
