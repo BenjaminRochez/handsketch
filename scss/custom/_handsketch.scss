@@ -1,4 +1,9 @@
 #handsketch {
+  .dontmove {
+    overflow-y: hidden;
+  }
+
+
   .background{
     background: url('assets/images/fond.jpg') no-repeat center center;
     background-size: cover;
@@ -10,7 +15,7 @@
     z-index: 0;
   }
   header{
-    background: url('assets/images/home.png') no-repeat center center;
+    background: url('assets/images/home.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     position: absolute;

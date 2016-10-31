@@ -114,8 +114,8 @@
 
     <!-- DEMONSTRATION BLOCK -->
     <div class="demonstration">
-      <img src="assets/images/interface_2.png" data-rjs="2" class="sr"  alt="interface handsketch" />
-      <img src="assets/images/interface_1.png" data-rjs="2" class="sr" alt="interface handsketch" />
+      <img src="assets/images/interface_2.jpg" data-rjs="2" class="sr"  alt="interface handsketch" />
+      <img src="assets/images/interface_1.jpg" data-rjs="2" class="sr" alt="interface handsketch" />
     </div>
 
     <!--  BLOCK BANNERWHITE -->

@@ -22,6 +22,7 @@ $(document).ready(function() {
               $('nav').addClass('nav--open');
               $('.line1').addClass('lineStatic');
               $('.line3').addClass('lineStatic');
+              $('body').toggleClass('dontmove');
           }
           else {
           $('nav').removeClass('nav--open');
