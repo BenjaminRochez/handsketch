@@ -132,9 +132,9 @@
       <h3>Telechargez Handsketch</h3>
     </div>
 
-    <p class="cta">
+    <!-- <p class="cta"> feedback Nicolas pas nécessaires le troisièmes call to action
       <a href="#" class="btn">Decouvrez l'application</a>
-    </p>
+    </p> -->
   </section>
 
 

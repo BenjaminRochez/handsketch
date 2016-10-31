@@ -22,7 +22,7 @@ $(document).ready(function() {
               $('nav').addClass('nav--open');
               $('.line1').addClass('lineStatic');
               $('.line3').addClass('lineStatic');
-              $('body').toggleClass('dontmove');
+              $('body').toggleClass('overflow');
           }
           else {
           $('nav').removeClass('nav--open');
@@ -59,6 +59,7 @@ $(document).ready(function() {
               $('.burger').removeClass('burgerCross');
               $('nav').removeClass('nav--open');
               $('nav ul li a').addClass('current');
+              $('body').removeClass('overflow');
           }
       });
 
