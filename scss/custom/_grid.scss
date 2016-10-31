@@ -9,8 +9,6 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
-//Container width	None (auto)	576px	720px	940px	1140px
-
 /*--------------------------------
   Layouts
 ---------------------------------*/
@@ -21,7 +19,7 @@ $medium: (columns: 12, container: 720px, gutter: 30px/100px, column-width:100px,
 $large: (columns: 12, container: 940px, gutter: 30px/100px, column-width:100px, gutter-position: inside-static);
 $xlarge: (columns: 12, container: 1140px, gutter: 30px/100px, column-width:100px, gutter-position: inside-static);
 
- 
+
 /*--------------------------------
   Rules
 ---------------------------------*/
