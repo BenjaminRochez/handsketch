@@ -1,1 +1,69 @@
+h1{
+  font-size: 45px;
+  font-family: $mont;
+  text-transform: uppercase;
+  color: $nightblue;
+  font-weight: 700;
+  span{
+    color: $lightblue;
+  }
+}
 
+h2{
+  font-size: 40px;
+  font-family: $mont;
+  letter-spacing: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $nightblue;
+}
+
+h3{
+  color: $grey;
+}
+
+.quote{
+  font-size: 24px;
+  color: $lightblue;
+  font-family: $cardo;
+}
+
+.circles{
+  margin: 0 0 25px 25px;
+}
+
+.circles__yellow{
+  color: $yellow;
+  font-family: $mont;
+  font-weight: bold;
+}
+
+.circles__red{
+  color: $red;
+  font-family: $mont;
+  font-weight: bold;
+}
+
+.circles__lightblue{
+  color: $lightblue;
+  font-family: $mont;
+  font-weight: bold;
+}
+
+
+.mont{
+  margin: 0 0 25px 25px;
+  font-family: $mont;
+  &--bold{
+    font-weight: 700;
+  }
+}
+
+.cardo{
+  margin: 0 0 25px 25px;
+  font-family: $cardo;
+  &--bold{
+    font-weight: 700;
+  }
+}
