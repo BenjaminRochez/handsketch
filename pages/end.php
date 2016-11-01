@@ -4,6 +4,7 @@
   <script src="js/modules/TweenMax.js" type="text/javascript"></script>
   <script src="js/modules/TimelineLite.min.js" type="text/javascript"></script>
   <script src="js/modules/jquery.scrollme.min.js" type="text/javascript"></script>
+  <script src="js/modules/jquery.waypoints.min.js" type="text/javascript"></script>
   <script src="js/modules/retina.js"></script>
   <script src="js/app/app.js" type="text/javascript"></script>
 </body>

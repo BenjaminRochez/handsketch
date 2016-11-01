@@ -6,7 +6,7 @@
 
 
 <!-- SECTION PRODUCTS -->
-<section>
+<section id="products">
   <h2>Products</h2>
   <!-- blockquote ?  or not -->
   <h3>"We make special effects in the real life, creative experiences using technologies"</h3>
