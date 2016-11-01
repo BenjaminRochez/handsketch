@@ -20,9 +20,20 @@ h2{
 }
 
 h3{
-  color: $grey;
+  color: $nightblue;
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-family: $mont;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
+
+
+p{
+  font-size: 18px;
+  font-family: $cardo;
+}
 .quote{
   font-size: 24px;
   color: $lightblue;
@@ -66,4 +77,8 @@ h3{
   &--bold{
     font-weight: 700;
   }
+}
+
+img{
+  max-width: 100%;
 }

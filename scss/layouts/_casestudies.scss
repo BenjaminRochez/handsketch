@@ -1,13 +1,32 @@
 .casestudy{
+  padding: 0 30px;
+  @extend .container;
   &__title{
-
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 15px;
 
     font-family: $mont;
-  }
-  p{
 
+    @media (min-width: $md){
+      @include span(5);
+      margin-top: 50px;
+    }
+  }
+  &__description{
+    color: $lightblue;
+
+    @media (min-width: $md){
+      @include span(7)
+      margin-top: 75px;
+    }
+  }
+  
+  &__questions__title{
+    text-align: center;
+  }
+  &__questions__p{
+    color: $lightblue;
+    text-align: center;
   }
 }
