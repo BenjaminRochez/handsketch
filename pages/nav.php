@@ -1,32 +1,27 @@
-<div>
-  <nav>
-    <h2>Hovertone</h2>
-    <ul>
-      <li>
-        <a href="">About</a>
-      </li>
-      <li>
-        <a href="">Product</a>
-      </li>
-      <li>
-        <a href="">Services</a>
-      </li>
-      <li>
-        <a href="">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="social__bar">
-    <ul class="social__bar__ul">
-      <li class="social__bar__ul__li">
-        <a href></a>
-      </li>
-      <li class="social__bar__ul__li">
-        <a href></a>
-      </li>
-      <li class="social__bar__ul__li">
-        <a href></a>
-      </li>
-    </ul>
-  </div>
+<!-- BURGER -->
+<div class="burger">
+  <span class="line line1"></span>
+  <span class="line line2"></span>
+  <span class="line line3"></span>
 </div>
+
+<!-- MAIN NAV -->
+<nav>
+  <ul>
+    <li class="home">
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+    <li>
+      <a href="#achat" class="buy">
+        <img src="assets/images/appstoreBlack.png" alt="appstore logo" data-rjs="2"/>
+      </a>
+    </li>
+  </ul>
+  <div class="langue">
+    <a href="#">FR</a>
+    <a href="#">EN</a>
+  </div>
+</nav>

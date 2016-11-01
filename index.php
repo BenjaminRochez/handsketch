@@ -2,12 +2,7 @@
 
 <body id="hovertone">
 
-<header>
-
-  <h1></h1>
-  <?php include 'pages/nav.php' ?>
-
-</header>
+<?php include 'pages/header.php' ?>
 
 
 <!-- SECTION PRODUCTS -->
