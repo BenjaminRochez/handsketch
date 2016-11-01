@@ -1,32 +1,42 @@
 .casestudy{
   padding: 0 30px;
+  text-align: center;
   @extend .container;
   &__title{
     text-transform: uppercase;
-    font-size: 60px;
-    letter-spacing: 15px;
-
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: left;
     font-family: $mont;
 
     @media (min-width: $md){
       @include span(5);
       margin-top: 50px;
     }
+    @media (min-width: $lg){
+      font-size: 60px;
+      letter-spacing: 15px;
+    }
   }
   &__description{
     color: $lightblue;
-
+    text-align: left;
     @media (min-width: $md){
       @include span(7)
-      margin-top: 75px;
+      margin-top: 50px;
     }
   }
-  
   &__questions__title{
     text-align: center;
   }
   &__questions__p{
     color: $lightblue;
     text-align: center;
+
+    @media(min-width: $lg){
+      @include span(6)
+      @include push(3)
+      @include post(3)
+    }
   }
 }
