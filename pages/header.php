@@ -22,4 +22,8 @@
       </li>
     </ul>
   </div>
+  <!-- <div class="langue">
+    <a href="#">FR</a>
+    <a href="#">EN</a>
+  </div> -->
 </header>

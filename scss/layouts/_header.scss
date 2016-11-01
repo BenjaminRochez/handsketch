@@ -57,64 +57,44 @@
     transform: scale(3) translateY(0);
   }
 }
-
-/* ==========================================================================
-  Social bar
-  ========================================================================== */
-
-.social {
-  width: 260px;
-  height: 30px;
-  position: absolute;
-  bottom: 0;
-  left: 10px;
-
-  transform: rotate(-90deg);
-  transform-origin: left top;
-}
-  .social__ul {
-    width: 100%;
-    height: 30px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-    .social__ul__el {
-      width: 33.3333%;
-      height: 100%;
-      float: left;
-    }
-      .social__ul__el__a {
-        display: block;
-        padding: 10px 0;
-
-
-        color: #FFF;
-        font-size: 8px;
-        font-family: $mont;
-        font-weight: 800;
-        text-decoration: none;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 4px;
-        cursor: pointer;
-        transition: all .3s ease-out;
-        &:after {
-          content: "";
-          display: block;
-          position: relative;
-          bottom: -10px;
-          left: 0px;
-          width: 4px;
-          height: 4px;
-          background-color: #FFF;
-          transition: all .3s ease-out;
-        }
-        &:hover, &:focus {
-          transform: translateY(10px);
-        }
-        &:hover::after {
-          width: 100%;
-          right: 12px;
-        }
-      }
+//
+// .langue {
+//   width: 100px;
+//   height: 40px;
+//   position: absolute;
+//   bottom: 100px;
+//   left: 50%;
+//   margin-left: -50px;
+//   bottom: 50px;
+//   @media (min-width: $md) {
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     top: 10px;
+//     margin-left: 0;
+//     height: 10px;
+//   }
+// }
+//   a {
+//     width: 50%;
+//     height: 100%;
+//     display: block;
+//     text-align: center;
+//     padding: 10px;
+//     color: rgba(255,255,255,.4);
+//     border-bottom: 2px solid rgba(255,255,255,.4);
+//     font-weight: 700;
+//     text-decoration: none;
+//     &:hover,
+//     &:focus,
+//     &:active {
+//       color: rgba(255,255,255,1);
+//       border-bottom: 2px solid rgba(255,255,255,1);
+//       width: 50px;
+//     }
+//     @media (min-width: $md) {
+//       height: 65%;
+//       border: none;
+//       font-size: 14px;
+//     }
+//   }
