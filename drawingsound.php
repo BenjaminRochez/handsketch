@@ -4,7 +4,7 @@
 
 <header>
   <h1></h1>
-  <?php include 'pags/nav.php' ?>
+  <?php include 'pages/nav.php' ?>
 </header>
     <!--  HAVE FUN :) -->
     <!-- <footer id="contact">
