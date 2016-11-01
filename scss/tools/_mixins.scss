@@ -1,0 +1,32 @@
+
+@mixin pseudo($width, $height, $background){
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: $width;
+  height: $height;
+
+  background: $background;
+}
+
+
+.centery{
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+
+.centerx{
+ position: absolute;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.centerxy{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateY(-50%) translateX(-50%);
+}

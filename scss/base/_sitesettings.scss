@@ -1,0 +1,24 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+/* ==========================================================================
+  Color
+  ========================================================================== */
+
+  $caraibe: #A3D4D6;
+  $azur: #5FBDC6;
+  $aubergine: #342A38;
+  $daubergine: #32363A;
+  $grey: #676766;
+
+
+  /* ==========================================================================
+    Fonts
+    ========================================================================== */
+
+    $mont: 'Montserrat', sans-serif;
+    $chat: 'Chathura', sans-serif;
