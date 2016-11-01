@@ -21,10 +21,5 @@
     <li class="nav__ul__li">
       <a class="nav__ul__li__a" href="#contact">Contact</a>
     </li>
-    <!-- <li>
-      <a href="#achat" class="buy">
-        <img src="assets/images/appstoreBlack.png" alt="appstore logo" data-rjs="2"/>
-      </a>
-    </li> -->
   </ul>
 </nav>
