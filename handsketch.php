@@ -26,7 +26,6 @@
 
   <!-- MAIN NAV -->
   <nav>
-    <h2>Hovertone</h2>
     <ul>
       <li class="home">
         <a href="#about">About</a>

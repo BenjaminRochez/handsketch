@@ -87,6 +87,23 @@ nav {
     opacity: 0;
     transform-origin: 50% 0;
   }
+  h2 {
+
+    display: block;
+    margin: 0;
+    padding: 5px;
+    width: 160px;
+    float: left;
+
+
+    font-family: $mont;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+  }
+
   ul {
     width: 100%;
     height: 350px;
