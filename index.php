@@ -3,27 +3,10 @@
 <body id="hovertone">
 
 <header>
-  <h1>We make special effects in the real life</h1>
-  <!-- Claque background -->
-  <div>
-    <?php include 'pages/nav.php' ?>
-    <!-- social -->
-    <div class="social__bar">
-      <ul class="social__bar__ul">
-        <li class="social__bar__ul__li">
-          <a href></a>
-        </li>
-        <li class="social__bar__ul__li">
-          <a href></a>
-        </li>
-        <li class="social__bar__ul__li">
-          <a href></a>
-        </li>
-      </ul>
-    </div>
-    <!-- arrow anime -->
-    <img src="#" alt="#"/>
-  </div>
+
+  <h1></h1>
+  <?php include 'pages/nav.php' ?>
+
 </header>
 
 
