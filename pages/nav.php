@@ -6,22 +6,20 @@
 </div>
 
 <!-- MAIN NAV -->
-<nav>
-  <ul>
-    <li class="home">
-      <a href="#about">About</a>
+<nav class="nav">
+  <a class="return" href="#">Hovertone</a>
+  <ul class="nav__ul">
+    <li class="nav__ul__li">
+      <a class="nav__ul__li__a" href="#about">About</a>
     </li>
-    <li>
-      <a href="#contact">Contact</a>
+    <li class="nav__ul__li">
+      <a class="nav__ul__li__a" href="#contact">Products</a>
     </li>
-    <li>
-      <a href="#achat" class="buy">
-        <img src="assets/images/appstoreBlack.png" alt="appstore logo" data-rjs="2"/>
-      </a>
+    <li class="nav__ul__li">
+      <a class="nav__ul__li__a" href="#about">Services</a>
+    </li>
+    <li class="nav__ul__li">
+      <a class="nav__ul__li__a" href="#contact">Contact</a>
     </li>
   </ul>
-  <div class="langue">
-    <a href="#">FR</a>
-    <a href="#">EN</a>
-  </div>
 </nav>

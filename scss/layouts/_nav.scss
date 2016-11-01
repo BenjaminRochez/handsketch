@@ -64,7 +64,7 @@
 
 $shadow: #333;
 
-nav {
+.nav {
   background: rgba(25,25,25,.9);
   height: 100vh;
   width: 100%;
@@ -81,30 +81,34 @@ nav {
   @media (min-width: $md) {
     transform: translate(0%);
     height: 60px;
-    width: 100%;
-    max-width: 100%;
+    max-width: 90%;
+    background-color: transparent;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     transition: all .3s ease-out;
-    opacity: 0;
+    opacity: 1;
     transform-origin: 50% 0;
   }
-  h2 {
-
+  .return {
     display: block;
+    width: 200px;
     margin: 0;
-    padding: 5px;
-    width: 160px;
+    padding: 20px;
     float: left;
 
-
+    color: #FFF;
     font-family: $mont;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    text-decoration: none;
     text-transform: uppercase;
-
+    cursor: pointer;
   }
+}
 
-  ul {
+  .nav__ul {
     width: 100%;
     height: 350px;
     list-style: none;
@@ -119,36 +123,39 @@ nav {
     }
     @media (min-width: $md) {
       height: 100%;
-      width: 400px;
+      width: 700px;
       margin-top: 0;
     }
-    &:hover li a {
-          color: $shadow;
+    &:hover .nav__ul__li__a {
+          color: rgba(255,255,255,.3);
     }
-    li {
-      width: 80%;
-      display: inline-block;
-      height: 60px;
-      margin: 0 auto;
-      margin-bottom: 32px;
-      transition: all .3s ease-out;
-      @media (min-width: $md) {
-        float: left;
-        width: 30%;
-        margin-left: 3%;
-        height: 100%;
+  }
+      .nav__ul__li {
+        width: 80%;
+        display: inline-block;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        transition: all .3s ease-out;
+        @media (min-width: $md) {
+          float: left;
+          width: 22%;
+          margin-left: 3%;
+          height: 100%;
+        }
+        &:hover {
+          opacity: 1;
+        }
       }
-      &:hover {
-        opacity: 1;
-      }
-      a {
+
+      .nav__ul__li__a {
         display: inline-block;
         color: #F7F7F7;
         height: 100%;
         padding: 10px;
         letter-spacing: 6px;
         font-size: 40px;
-        font-family: $chat;
+        font-family: $mont;
         font-weight: 800;
         text-align: center;
         text-transform: uppercase;
@@ -156,35 +163,35 @@ nav {
         cursor: pointer;
         transition: all .6s ease-out;
         @media (min-width: $md) {
-          font-size: 20px;
+          font-size: 10px;
           text-align: center;
-          padding: 19px;
+          padding: 26px;
         }
         &:nth-child(2) {
           @media (min-width: $md) {
               border: 2px solid $azur;
           }
         }
-        &:hover, &:active {
-          color: #FFF;
-          &:after {
+        &:hover {
+          color: rgba(255,255,255,1) !important;
+        }
+        &:hover::after {
             content: "";
             display: block;
             width: 100%;
-            height: 2px;
+            height: 4px;
             background-color: #FFF;
             position: relative;
             top: 5px;
             animation: drawline .6s forwards;
             transform-origin: 0 50%;
-          }
-          @media (min-width: $md) {
-            &:after {
+            @media (min-width: $md) {
                 animation: drawline .6s forwards;
-                top: 4px;
-            }
+                top: 10px;
           }
         }
+
+
         span {
           display: block;
           font-size: 11px;
@@ -197,73 +204,31 @@ nav {
           transform: translateY(10px);
         }
       }
-      .buy {
-        padding: 0;
-        height: 40px;
-        width: 200px;
-        margin-top: 10px;
-        border: 2px solid $azur;
-        border-radius: 40px;
-        img {
-          width: 100px;
-          margin: 0;
-          border-radius: 60px;
-        }
-        &:hover, &:active {
-          background-color: $azur;
-          &:after {
-            display: none;
-          }
-        }
-        @media (min-width: $md) {
-          width: 100%;
-        }
-      }
-    }
-  }
-  .langue {
-    width: 100px;
-    height: 40px;
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-    margin-left: -50px;
-    bottom: 50px;
-    @media (min-width: $md) {
-      position: absolute;
-      right: 0;
-      left: 10px;
-      bottom: 0;
-      top: 10px;
-      margin-left: 0;
-      height: 100%;
-    }
-    a {
-      width: 50%;
-      height: 100%;
-      display: block;
-      float: left;
-      text-align: center;
-      padding: 10px;
-      color: rgba(255,255,255,.4);
-      border-bottom: 2px solid rgba(255,255,255,.4);
-      font-weight: 700;
-      text-decoration: none;
-      &:hover,
-      &:focus,
-      &:active {
-        color: rgba(255,255,255,1);
-        border-bottom: 2px solid rgba(255,255,255,1);
-        width: 50px;
-      }
-      @media (min-width: $md) {
-        height: 65%;
-        border: none;
-        font-size: 14px;
-      }
-    }
-  }
-}
+//       .buy {
+//         padding: 0;
+//         height: 40px;
+//         width: 200px;
+//         margin-top: 10px;
+//         border: 2px solid $azur;
+//         border-radius: 40px;
+//         img {
+//           width: 100px;
+//           margin: 0;
+//           border-radius: 60px;
+//         }
+//         &:hover, &:active {
+//           background-color: $azur;
+//           &:after {
+//             display: none;
+//           }
+//         }
+//         @media (min-width: $md) {
+//           width: 100%;
+//         }
+//       }
+//     }
+//   }
+// }
 
 
 .nav--open {
@@ -283,14 +248,3 @@ nav {
     transform: scaleX(1);
   }
 }
-
-// @keyframes fadeInBottom {
-//   0% {
-//     opacity: 0;
-//     transform: translateY(10px);
-//   }
-//   100% {
-//     transform: translateY(0px);
-//     opacity: 1;
-//   }
-// }
