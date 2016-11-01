@@ -111,10 +111,9 @@
           transition: all .3s ease-out;
         }
         &:hover, &:focus {
-          margin-top: 10px;
+          transform: translateY(10px);
         }
         &:hover::after {
-          display: inline-block;
           width: 100%;
           right: 12px;
         }
