@@ -40,22 +40,78 @@
       <h2>Products</h2>
       <!-- products list -->
       <ul class="products__group">
-        <li class="products__group__el">
+        <li class="products__group__el clearfix">
+          <div class="left">
           <div class="products__group__el__img products__group__el__img--handsketch">
-            <a href="#"></a>
+            <a href="#" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="#"><h4 class="products__group__el__title">Handsketch</h4></a>
+          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Handsketch</h4></a>
+          </div>
+          <div class="right">
           <p class="products__group__el__p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <a href="#" class="products__group__el__cta">See more +</a>
           </p>
-          <a href="#" class="products__group__el__cta">See more +</a>
+
+          </div>
+        </li>
+
+        <li class="products__group__el clearfix">
+          <div class="left">
+          <p class="products__group__el__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <a href="#" class="products__group__el__cta">See more +</a>
+          </p>
+
+          </div>
+          <div class="right">
+          <div class="products__group__el__img products__group__el__img--drawing">
+            <a href="#" class="products__group__el__imghover"></a>
+            <div class="products__group__el__img__gradient"></div>
+          </div>
+          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Drawing Sounds</h4></a>
+          </div>
+        </li>
+
+        <li class="products__group__el clearfix">
+          <div class="left">
+          <div class="products__group__el__img products__group__el__img--wall">
+            <a href="#" class="products__group__el__imghover"></a>
+            <div class="products__group__el__img__gradient"></div>
+          </div>
+          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Interactive Wall</h4></a>
+          </div>
+          <div class="right">
+          <p class="products__group__el__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <a href="#" class="products__group__el__cta">See more +</a>
+          </p>
+
+          </div>
+        </li>
+
+        <li class="products__group__el clearfix">
+          <div class="left">
+          <p class="products__group__el__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <a href="#" class="products__group__el__cta">See more +</a>
+          </p>
+
+          </div>
+          <div class="right">
+          <div class="products__group__el__img products__group__el__img--choir">
+            <a href="#" class="products__group__el__imghover"></a>
+            <div class="products__group__el__img__gradient"></div>
+          </div>
+          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Choir Mob</h4></a>
+          </div>
         </li>
 
       </ul>
     </section>
 
-    <h4>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.
+    <h4>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
       We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h4>
       <!-- SECTION SERVICES -->
       <section class="services">
@@ -64,7 +120,7 @@
         <ul class="services__group">
           <li class="services__group__el">
             <div class="services__group__el__img services__group__el__img--motion">
-              <a href="#"></a>
+              <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">Motion Capture</h4></a>
@@ -76,7 +132,7 @@
 
           <li class="services__group__el">
             <div class="services__group__el__img services__group__el__img--performance">
-              <a href="#"></a>
+              <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">PERFORMANCES</h4></a>
@@ -88,7 +144,7 @@
 
           <li class="services__group__el">
             <div class="services__group__el__img services__group__el__img--workshops">
-              <a href="#"></a>
+              <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">WORKSHOPS</h4></a>
@@ -100,7 +156,7 @@
 
           <li class="services__group__el">
             <div class="services__group__el__img services__group__el__img--custom">
-              <a href="#"></a>
+              <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">Custom Projects</h4></a>

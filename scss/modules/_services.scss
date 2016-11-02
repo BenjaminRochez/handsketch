@@ -37,10 +37,19 @@
         text-align: left;
       }
     }
+    &__imghover{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 9;
+    }
     &__img{
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
+      position: relative;
       @media (min-width: $md){
         max-width: 250px;
         height: 360px;
