@@ -1,0 +1,63 @@
+#video-container{
+  .top, .bottom{
+    position: absolute;
+    background: rgba(0,0,0, 0.9);
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    z-index: 999;
+  }
+  .beforeVid, .afterVid{
+    height: 0;
+    content: "";
+    background: #FFF;
+    position: absolute;
+    width: 100%;
+    z-index: 997;
+  }
+  .beforeVid{ 
+    bottom: 50%;
+  }
+  .afterVid{
+    top: 50%;
+  }
+  .top{
+    top: 0;
+    a{
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+  .bottom{
+    bottom: 0;
+  }
+  #video-controls{
+    #play-pause{
+      background: none;
+      border: none;
+      color: #FFF;
+      outline: none;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    #seek-bar{
+      outline: none;
+
+    }
+    #mute{
+      background: none;
+      border: none;
+      color: #FFF;
+      outline: none;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    #currenttime{
+      display: inline-block;
+      color: #FFF;
+    }
+  }
+}
