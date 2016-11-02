@@ -75,6 +75,7 @@ $shadow: #333;
   text-align: center;
   transition: all .3s ease-out;
   transform: translate(-100%);
+
   @media (max-width: 420px) {
     width: 100%;
   }
@@ -88,6 +89,9 @@ $shadow: #333;
     transition: all .3s ease-out;
     opacity: 1;
     transform-origin: 50% 0;
+    &.is-black{
+      background: rgba(0, 0, 0, 0.9);
+    }
   }
   .return {
     display: block;

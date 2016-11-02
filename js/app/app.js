@@ -329,6 +329,18 @@ $(document).ready(function() {
       })();
 
 
+      /*-----------------------------------------------------------------------------------*/
+      /*	Waypoint open menu
+      /*-----------------------------------------------------------------------------------*/
+
+      var waypoint = new Waypoint({
+        element: document.getElementById('products'),
+        handler: function(direction) {
+          $('.nav').toggleClass('is-black');
+        },
+        offset: '0%'
+      });
+
 
 
 
