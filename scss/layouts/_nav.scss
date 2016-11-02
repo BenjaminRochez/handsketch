@@ -13,7 +13,7 @@
     top: 10px;
     left: 10px;
   }
-  @media (min-width: $md) {
+  @media (min-width: $lg) {
     display: none;
   }
   .line {
@@ -67,7 +67,7 @@ $shadow: #333;
 .nav {
   background: rgba(25,25,25,.9);
   height: 100vh;
-  width: 100%;
+  @include span(12);
   position: fixed;
   top: 0;
   left: 0;
@@ -79,14 +79,13 @@ $shadow: #333;
   @media (max-width: 420px) {
     width: 100%;
   }
-  @media (min-width: $md) {
+  @media (min-width: $lg) {
     transform: translate(0%);
     height: 60px;
-    max-width: 90%;
-    background-color: transparent;
+    @include span(12);
+    position: fixed;
     top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    background-color: transparent;
     transition: all .3s ease-out;
     opacity: 1;
     transform-origin: 50% 0;
@@ -96,11 +95,13 @@ $shadow: #333;
   }
   .return {
     display: block;
-    width: 200px;
     margin: 0;
     padding: 20px;
     float: left;
 
+    @include span(10);
+    @include push(1);
+    @include post(1);
     color: #FFF;
     font-family: $mont;
     font-size: 18px;
@@ -109,6 +110,10 @@ $shadow: #333;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    @media (min-width: $sm) {
+      @include span(1);
+      @include post(11);
+    }
   }
 }
 
@@ -125,9 +130,11 @@ $shadow: #333;
     @media (max-width: 320px) {
       margin-top: 100px;
     }
-    @media (min-width: $md) {
+    @media (min-width: $lg) {
       height: 100%;
-      width: 700px;
+      @include span(6);
+      @include push(3);
+      @include post(1);
       margin-top: 0;
     }
     &:hover .nav__ul__li__a {
@@ -141,7 +148,7 @@ $shadow: #333;
         margin: 0 auto;
         margin-bottom: 32px;
         transition: all .3s ease-out;
-        @media (min-width: $md) {
+        @media (min-width: $lg) {
           float: left;
           width: 22%;
           margin-left: 3%;
@@ -172,7 +179,7 @@ $shadow: #333;
           padding: 26px;
         }
         &:nth-child(2) {
-          @media (min-width: $md) {
+          @media (min-width: $lg) {
               border: 2px solid $azur;
           }
         }
@@ -233,6 +240,12 @@ $shadow: #333;
 //     }
 //   }
 // }
+
+.is--active {
+  background-color: #000;
+  @include span(12);
+  top: 0;
+}
 
 
 .nav--open {
