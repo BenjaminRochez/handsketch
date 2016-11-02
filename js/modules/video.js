@@ -1,5 +1,4 @@
-window.onload = function() {
-
+function video() {
   // Video
   var video = document.getElementById("video");
 
@@ -13,7 +12,7 @@ window.onload = function() {
   var volumeBar = document.getElementById("volume-bar");
 
   // Event listener for the play/pause button
-playButton.addEventListener("click", function() {
+  playButton.addEventListener("click", function() {
   if (video.paused == true) {
     // Play the video
     video.play();
@@ -27,11 +26,11 @@ playButton.addEventListener("click", function() {
     // Update the button text to 'Play'
     playButton.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
   }
-});
+  });
 
 
   // Event listener for the mute button
-muteButton.addEventListener("click", function() {
+  muteButton.addEventListener("click", function() {
   if (video.muted == false) {
     // Mute the video
     video.muted = true;
@@ -45,47 +44,45 @@ muteButton.addEventListener("click", function() {
     // Update the button text
     muteButton.innerHTML = '<i class="fa fa-volume-up" aria-hidden="true"></i>';
   }
-});
+  });
 
 
   // Event listener for the seek bar
-seekBar.addEventListener("change", function() {
+  seekBar.addEventListener("change", function() {
   // Calculate the new time
   var time = video.duration * (seekBar.value / 100);
 
   // Update the video time
   video.currentTime = time;
-});
+  });
 
   // Update the seek bar as the video plays
-video.addEventListener("timeupdate", function() {
+  video.addEventListener("timeupdate", function() {
   // Calculate the slider value
   var value = (100 / video.duration) * video.currentTime;
 
   // Update the slider value
   seekBar.value = value;
-});
+  });
 
   // Pause the video when the slider handle is being dragged
-seekBar.addEventListener("mousedown", function() {
+  seekBar.addEventListener("mousedown", function() {
   video.pause();
-});
+  });
 
-// Play the video when the slider handle is dropped
-seekBar.addEventListener("mouseup", function() {
+  // Play the video when the slider handle is dropped
+  seekBar.addEventListener("mouseup", function() {
   video.play();
-});
+  });
 
   // Event listener for the volume bar
-volumeBar.addEventListener("change", function() {
+  volumeBar.addEventListener("change", function() {
   // Update the video volume
   video.volume = volumeBar.value;
-});
+  });
 
 }
-
-
- function myFunction(event) {
+  function myFunction(event) {
     // The currentTime property returns the current position of the audio/video playback
     var minutes = Math.floor(event.currentTime / 60); // 7
     var seconds = Math.floor(event.currentTime % 60); // 30
@@ -100,7 +97,6 @@ volumeBar.addEventListener("change", function() {
       } else {
         minutes = minutes;
       }
+      document.getElementById("demo").innerHTML = minutes + ":" + seconds;
 
-
-    document.getElementById("demo").innerHTML = minutes + ":" + seconds;
 }

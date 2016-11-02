@@ -3,7 +3,35 @@
 <body id="hovertone">
 
   <?php include 'pages/header.php' ?>
+  <!-- Video -->
+    <section class="video-wrapper">
+      <div id="video-container">
+        <span class="beforeVid overlayVid"></span>
+        <span class="afterVid overlayVid"></span>
+        <div class="top blackBord">
+          <a id="closeVideo" href="#" disableScroll()><i class="fa fa-times" aria-hidden="true"></i> Fermer </a>
+        </div>
 
+
+        <video id="video" width="640" height="365" ontimeupdate="myFunction(this)">
+          <source src="assets/videos/hovertone.mp4" type="video/mp4">
+            <p>
+              Your browser doesn't support HTML5 video.
+              <a href="">Download</a> the video instead.
+            </p>
+          </video>
+          <!-- Video Controls -->
+          <div class="bottom blackBord">
+            <div id="video-controls" >
+              <button type="button" id="play-pause"><i class="fa fa-play" aria-hidden="true"></i> </button>
+              <input type="range" id="seek-bar" value="0">
+              <p id="currenttime"><span id="demo">00:00</span></p>
+              <button type="button" id="mute"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+              <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+            </div>
+          </div>
+        </div>
+      </section>
 
   <!-- SECTION PRODUCTS -->
 
