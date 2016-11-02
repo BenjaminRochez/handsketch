@@ -111,8 +111,8 @@
       </ul>
     </section>
 
-    <h4>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
-      We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h4>
+    <h5>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
+      We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h5>
       <!-- SECTION SERVICES -->
       <section class="services">
         <h2>Services</h2>
