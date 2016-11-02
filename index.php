@@ -6,116 +6,77 @@
 
 
   <!-- SECTION PRODUCTS -->
-  <section id="products">
-    <h2>Products</h2>
-    <!-- products list -->
-    <ul class="products">
-      <li class="products__el">
-          <a href="#"></a>
-          <h4 class="products__">Handsketch</h4>
-          <p>
-            Voice as an instrument
+
+  <div class="wrapper">
+    <section class="products" id="products">
+      <h2>Products</h2>
+      <!-- products list -->
+      <ul class="products__group">
+        <li class="products__group__el">
+          <div class="products__group__el__img products__group__el__img--handsketch">
+            <a href="#"></a>
+            <div class="products__group__el__img__gradient"></div>
+          </div>
+          <a href="#"><h4 class="products__group__el__title">Handsketch</h4></a>
+          <p class="products__group__el__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <a href="#">See more +</a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Handsketch</h4>
-          <p>
-            Voice as an instrument
-          </p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Handsketch</h4>
-          <p>
-            Voice as an instrument
-          </p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Handsketch</h4>
-          <p>
-            Voice as an instrument
-          </p>
-        </a>
-      </li>
-    </ul>
-  </section>
+          <a href="#" class="products__group__el__cta">See more +</a>
+        </li>
+
+      </ul>
+    </section>
+
+    <h4>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.
+      We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h4>
+      <!-- SECTION SERVICES -->
+      <section class="services">
+        <h2>Services</h2>
+        <!-- products list -->
+        <ul class="services__group">
+          <li class="services__group__el">
+            <div class="services__group__el__img services__group__el__img--motion">
+              <a href="#"></a>
+              <div class="services__group__el__img__gradient"></div>
+            </div>
+            <a href="#"><h4 class="services__group__el__title">Motion Capture</h4></a>
+            <p class="services__group__el__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="services__group__el__cta">See more +</a>
+          </li>
+        </ul>
+
+        <a href="#">Ask us for more information</a>
+      </section>
 
 
-
-  <!-- SECTION SERVICES -->
-  <section >
-    <h2>Services</h2>
-    <!-- blockquote ?  or not -->
-    <h3>"Whether you want to organize a class about creative coding, a pratical hands-on workshop on motion and interraction"</h3>
-    <!-- products list -->
-    <ul>
-      <li>
-        <a href="#">
-          <h4>Motion capture</h4>
+      <!-- SECTION ABOUT -->
+      <section>
+        <h2>About</h2>
+        <!-- TEAM -->
+        <div>
+          <img src="#" alt="" />
           <p>
-            Voice as an instrument
+            Hi world, we are Hovertone. We are a new startup in motion and music technologies. We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch.
           </p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Handsketch</h4>
+        </div>
+        <div>
+          <img src="#" alt="" />
           <p>
-            Voice as an instrument
+            Hovertone is a combination of different technological expertises and high-tech platforms, serving these new interactive experiences, serving the emotion of the visitor, performer, creator, creative.
           </p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Handsketch</h4>
-          <p>
-            Voice as an instrument
-          </p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <h4>Custom projects</h4>
-          <p>
-            Lets move to the next step together.
-          </p>
-        </a>
-      </li>
-    </ul>
+        </div>
+      </section>
 
-    <a href="#">Ask us for more information</a>
-  </section>
-
-
-  <!-- SECTION ABOUT -->
-  <section>
-    <h2>About</h2>
-    <!-- TEAM -->
-    <div>
-      <img src="#" alt="" />
-      <p>
-        Hi world, we are Hovertone. We are a new startup in motion and music technologies. We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch.
-      </p>
     </div>
-    <div>
-      <img src="#" alt="" />
+
+    <!-- FOOTER -->
+    <footer>
+      <h2>hovertone</h2>
       <p>
-        Hovertone is a combination of different technological expertises and high-tech platforms, serving these new interactive experiences, serving the emotion of the visitor, performer, creator, creative.
+
       </p>
-    </div>
-  </section>
+    </footer>
 
-  <!-- FOOTER -->
-  <footer>
-    <h2>hovertone</h2>
-    <p>
-
-    </p>
-  </footer>
-
-  <?php include 'pages/end.php' ?>
+    <?php include 'pages/end.php' ?>
