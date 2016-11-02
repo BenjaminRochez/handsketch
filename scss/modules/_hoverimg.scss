@@ -9,7 +9,7 @@
   background: -webkit-linear-gradient(45deg,  #00a89c 0%,#40b9d2 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg,  #00a89c 0%,#40b9d2 100%);
   opacity: .7;
-  transition: all 1s ease-out;
+  transition: all .5s ease-out;
 }
 
 
@@ -20,5 +20,5 @@
 .products__group__el__img:hover {
   box-shadow: 10px 10px 15px #40b9d2;
   background-size: 120%;
-  transition: all 1s ease-out;
+  transition: all .5s ease-out;
 }
