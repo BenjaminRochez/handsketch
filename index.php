@@ -45,9 +45,43 @@
             </p>
             <a href="#" class="services__group__el__cta">See more +</a>
           </li>
-        </ul>
 
-        <a href="#">Ask us for more information</a>
+          <li class="services__group__el">
+            <div class="services__group__el__img services__group__el__img--performance">
+              <a href="#"></a>
+              <div class="services__group__el__img__gradient"></div>
+            </div>
+            <a href="#"><h4 class="services__group__el__title">PERFORMANCES</h4></a>
+            <p class="services__group__el__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="services__group__el__cta">See more +</a>
+          </li>
+
+          <li class="services__group__el">
+            <div class="services__group__el__img services__group__el__img--workshops">
+              <a href="#"></a>
+              <div class="services__group__el__img__gradient"></div>
+            </div>
+            <a href="#"><h4 class="services__group__el__title">WORKSHOPS</h4></a>
+            <p class="services__group__el__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="services__group__el__cta">See more +</a>
+          </li>
+
+          <li class="services__group__el">
+            <div class="services__group__el__img services__group__el__img--custom">
+              <a href="#"></a>
+              <div class="services__group__el__img__gradient"></div>
+            </div>
+            <a href="#"><h4 class="services__group__el__title">Custom Projects</h4></a>
+            <p class="services__group__el__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="services__group__el__cta">See more +</a>
+          </li>
+        </ul>
       </section>
 
 

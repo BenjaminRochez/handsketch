@@ -19,6 +19,7 @@
       text-decoration: none;
     }
     &__title{
+      
       color: $yellow;
       font-family: $mont;
       text-transform: uppercase;
@@ -41,6 +42,7 @@
     &__cta{
       position: relative;
       display: inline-block;
+      margin-bottom: 25px;
 
       color: #FFF;
       font-family: $mont;

@@ -13,41 +13,76 @@
   position: relative;
   &__el{
     text-align: center;
-    padding: 0;
+    padding: 0!important;
     list-style-type: none;
+    @media(min-width: $md){
+      @include span(6);
+      text-align: left;
+    }
+    @media (min-width: $lg){
+      @include span(3);
+    }
     a{
       text-decoration: none;
     }
     &__title{
-      color: $yellow;
+      height: 50px;
+      display: inline-block;
+      color: $red;
       font-family: $mont;
       text-transform: uppercase;
-      font-size: 40px;
+      font-size: 24px;
       font-weight: 700;
+      @media (min-width: $md){
+        text-align: left;
+      }
     }
     &__img{
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
+      @media (min-width: $md){
+        max-width: 250px;
+        height: 360px;
+        margin: 0 0;
+      }
       &--motion{
         background: url('assets/images/Services/Motion.png') no-repeat center center;
+        background-size: cover;
+      }
+      &--performance{
+        background: url('assets/images/Services/Performances.png') no-repeat center center;
+        background-size: cover;
+      }
+      &--workshops{
+        background: url('assets/images/Services/WorkShops.png') no-repeat center center;
+        background-size: cover;
+      }
+      &--custom{
+        background: url('assets/images/Services/Custom.jpg') no-repeat center center;
         background-size: cover;
       }
     }
     &__p{
       color: #FFF;
-      margin: 25px 0 0;
+      margin:  0 0;
+      @media (min-width: $md){
+        text-align: left;
+      }
     }
     &__cta{
       position: relative;
       display: inline-block;
+      margin-bottom: 25px;
 
       color: #FFF;
       font-family: $mont;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 700;
-
+      @media (min-width: $md){
+        text-align: left;
+      }
       &:before{
         content: "";
         display: block;
@@ -55,7 +90,10 @@
         margin: 25px auto;
         height: 1px;
         width: 20px;
-        background: red;
+        background: $yellow;
+        @media (min-width: $md){
+          margin: 25px 0;
+        }
       }
     }
   }
