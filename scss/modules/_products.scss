@@ -1,3 +1,12 @@
+$hover: .5s;
+h4{
+  color: $lightblue;
+  @include span(6);
+  @include post(3);
+  @include push(3);
+  font-family: $cardo;
+  text-align: center;
+}
 .products{
   @extend .container;
   padding: 30px;
@@ -15,6 +24,27 @@
     text-align: center;
     padding: 0;
     list-style-type: none;
+    @media (min-width: $lg){
+      margin: 150px 0;
+      &:first-child{
+        margin: 50px 0;
+      }
+    }
+    .left{
+      @media (min-width: $lg){
+        @include span(6);
+        position: relative;
+      }
+    }
+    .right{
+      @media (min-width: $lg){
+        @include span(6);
+        position: relative;
+        .products__group__el__titlelink{
+          left: 0;
+        }
+      }
+    }
     a{
       text-decoration: none;
     }
@@ -26,19 +56,55 @@
       font-size: 40px;
       font-weight: 700;
     }
+    &__titlelink{
+      @media (min-width: $lg){
+        position: absolute;
+        top: 0;
+      }
+    }
+    &__imghover{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 9;
+    }
     &__img{
+      position: relative;
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
+      @media (min-width: $lg){
+        height: 350px;
+      }
       &--handsketch{
         background: url('assets/images/Products/Handsketch.png') no-repeat center center;
         background-size: 105%;
-        transition: all 1s ease-out;
+        transition: all $hover ease-out;
+      }
+      &--drawing{
+        background: url('assets/images/Products/DrawingSound.png') no-repeat center center;
+        background-size: 105%;
+        transition: all $hover ease-out;
+      }
+      &--choir{
+        background: url('assets/images/Products/ChoirMob.png') no-repeat center center;
+        background-size: 105%;
+        transition: all $hover ease-out;
+      }
+      &--wall{
+        background: url('assets/images/Products/interactivewall.png') no-repeat center center;
+        background-size: 105%;
+        transition: all $hover ease-out;
       }
     }
     &__p{
       color: #FFF;
       margin: 25px 0 0;
+      @media (min-width: $lg){
+        transform: translateY(50%);
+      }
     }
     &__cta{
       position: relative;
@@ -63,3 +129,18 @@
     }
   }
 }
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
