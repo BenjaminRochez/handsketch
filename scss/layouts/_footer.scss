@@ -1,0 +1,86 @@
+
+footer {
+  width: 100%;
+  height: auto;
+}
+  .redirection {
+    @include span(12);
+    height: auto;
+    padding: 50px 0;
+    background-color: #0c1e2c;
+  }
+    .redirection__h2 {
+      padding: 10px 0;
+      color: #FFF;
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-family: Montserrat,sans-serif;
+      font-weight: 800;
+      cursor: pointer;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  .list__title {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @include span(10);
+    @include post(1);
+    @include push(1);
+  }
+    .list__title__h3 {
+      color: $lightblue;
+      text-align: center;
+    }
+    .list__title__li {
+      @include span(12);
+      float: left;
+      margin-bottom: 15px;
+      font-size: 22px;
+      text-align: center;
+    }
+      .list__title__li__a {
+        color: #FFF;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all .3s ease-out;
+        &:hover, &:active {
+          color: #f9e710;
+        }
+      }
+      .list__title__li__small {
+        color: #FFF;
+      }
+
+/* ==========================================================================
+  blackbar
+  ========================================================================== */
+
+.blackbar {
+  @include span(12);
+  background-color: $footer;
+}
+  .blackbar__p {
+    @include span(10);
+    @include post(1);
+    @include push(1);
+    color: #FFF;
+    font-family: $chat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .blackbar__box {
+    @include span(12);
+    padding: 5px 0;
+    margin-bottom: 20px;
+  }
+    .blackbar__box__p {
+      @include span(12);
+      color: #394249;
+      font-size: 19px;
+      text-align: center;
+      span {
+        font-family: $patua;
+      }
+    }

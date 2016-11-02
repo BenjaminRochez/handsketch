@@ -134,11 +134,6 @@
     </div>
 
     <!-- FOOTER -->
-    <footer>
-      <h2>hovertone</h2>
-      <p>
-
-      </p>
-    </footer>
+    <?php include 'pages/footer.php' ?>
 
     <?php include 'pages/end.php' ?>
