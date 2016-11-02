@@ -5,12 +5,8 @@
   <script src="js/modules/jquery.waypoints.min.js" type="text/javascript"></script>
   <script src="js/modules/TimelineLite.min.js" type="text/javascript"></script>
   <script src="js/modules/jquery.scrollme.min.js" type="text/javascript"></script>
-<<<<<<< HEAD
-  <script src="js/modules/retina.min.js"></script>
-=======
   <script src="js/modules/jquery.waypoints.min.js" type="text/javascript"></script>
-  <script src="js/modules/retina.js"></script>
->>>>>>> a5ea660b6d3fe5367ff9cc62de8eaa43b1dc7114
+  <script src="js/modules/retina.min.js"></script>
   <script src="js/app/app.js" type="text/javascript"></script>
 </body>
 </html>
