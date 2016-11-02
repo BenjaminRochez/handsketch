@@ -19,7 +19,7 @@
       text-decoration: none;
     }
     &__title{
-      
+
       color: $yellow;
       font-family: $mont;
       text-transform: uppercase;
@@ -32,7 +32,8 @@
       margin: 0 auto;
       &--handsketch{
         background: url('assets/images/Products/Handsketch.png') no-repeat center center;
-        background-size: cover;
+        background-size: 105%;
+        transition: all 1s ease-out;
       }
     }
     &__p{
@@ -61,9 +62,4 @@
       }
     }
   }
-}
-
-
-.services{
-
 }

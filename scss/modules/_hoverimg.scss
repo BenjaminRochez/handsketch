@@ -1,0 +1,24 @@
+.products__group__el__img__gradient {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #00a89c; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #00a89c 0%, #40b9d2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #00a89c 0%,#40b9d2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #00a89c 0%,#40b9d2 100%);
+  opacity: .7;
+  transition: all 1s ease-out;
+}
+
+
+.products__group__el__img:hover .products__group__el__img__gradient{
+  opacity: 0;
+}
+
+.products__group__el__img:hover {
+  box-shadow: 10px 10px 15px #40b9d2;
+  background-size: 120%;
+  transition: all 1s ease-out;
+}
