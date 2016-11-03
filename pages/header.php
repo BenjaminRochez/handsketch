@@ -7,7 +7,7 @@
   <div class="header__content">
     <h1 class="header__content__h1">We make special effects in the real life</h1>
     <?php include 'pages/nav.php' ?>
-    <a href="#" class="header__content__a btn" id="startVideo">Watch the video</a>
+    <a href="#" class="header__content__a btn hidden" id="startVideo">Watch the video</a>
     <!-- Anime arrow -->
     <div class="header__content__arrow">
       <i class="fa fa-angle-down" aria-hidden="true"></i>

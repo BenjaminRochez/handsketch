@@ -19,7 +19,7 @@
       <a class="nav__ul__li__a" href="index.php#services">Services</a>
     </li>
     <li class="nav__ul__li">
-      <a class="nav__ul__li__a" href="index.php#contact">Contact</a>
+      <a class="nav__ul__li__a" href="mailto:info@hovertone.com">Contact</a>
     </li>
   </ul>
 </nav>
