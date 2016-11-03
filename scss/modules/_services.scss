@@ -1,6 +1,7 @@
 .services{
   @extend .container;
   padding: 30px;
+  padding-bottom: 75px;
   h2{
     color: #FFF;
   }
@@ -16,7 +17,7 @@
     padding: 0!important;
     list-style-type: none;
     @media(min-width: $md){
-      @include span(6);
+      @include span(6); 
       text-align: left;
     }
     @media (min-width: $lg){
