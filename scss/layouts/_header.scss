@@ -145,8 +145,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: red;
+  background: #000;
   z-index: 999999;
-  background: url(assets/images/ripple.gif) no-repeat center center;
-  background-size: 40px 40px;
 }
+
+  .cover__anime {
+    width: 40px;
+    height: 40px;
+    background: url(assets/images/ripple.gif) no-repeat center center;
+    background-size: cover;
+    @extend .centerxy;
+  }
