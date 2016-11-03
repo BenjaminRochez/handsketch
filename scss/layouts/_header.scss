@@ -7,10 +7,17 @@
   height: 100vh;
   position: relative;
   top: 0;
-  background: url('assets/images/test.jpg') no-repeat center center; //test
   background-size: cover;
   &--drawingsound{
       background: url('assets/images/drawingsound.png') no-repeat center center;
+      background-size: cover;
+  }
+  &--workshops{
+      background: url('assets/images/Services/workshops_b.jpg') no-repeat center center;
+      background-size: cover;
+  }
+  &--home{
+      background: url('assets/images/test.jpg') no-repeat center center;
       background-size: cover;
   }
 }

@@ -1,6 +1,6 @@
 
 
-<header class="header">
+<header class="header header--home">
   <div class="cover"></div>
   <div class="header__content">
     <h1 class="header__content__h1">We make special effects in the real life</h1>
@@ -9,7 +9,7 @@
     <!-- Anime arrow -->
     <div class="header__content__arrow">
       <i class="fa fa-angle-down" aria-hidden="true"></i>
-    </div> 
+    </div>
   </div>
   <div class="social">
     <ul class="social__ul">

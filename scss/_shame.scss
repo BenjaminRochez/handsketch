@@ -70,8 +70,70 @@
 //   font-weight: bold;
 //   color: red;
 // }
-
-
+.casestudy{
+  font-size: 0;
+}
+.casestudy__description, .casestudy__title{
+  float: none;
+  display: inline-block;
+}
 .redirection__h2 {
   display: none;
+}
+
+.casestudy__illu{
+  width: 50%;
+  margin: 50px 25%;
+  height: 280px;
+  &--workshops{
+    background: url('assets/images/Services/workshops_i.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &--motion{
+    background: url('assets/images/Services/motion_b.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--performances{
+    background: url('assets/images/Services/performances_i.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &--custom{
+    background: url('assets/images/Services/custom_i.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--interactive{
+    background: url('assets/images/Services/interactive_i.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--choir{
+    background: url('assets/images/Services/choir_i.png') no-repeat center center;
+    background-size: cover;
+  }
+}
+
+.header{
+  &--workshops{
+    background: url('assets/images/Services/workshops_b.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &--motion{
+    background: url('assets/images/Services/motion_i.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  &--performances{
+    background: url('assets/images/Services/performances_b.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--custom{
+    background: url('assets/images/Services/custom_b.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--InteractivePrint{
+    background: url('assets/images/Services/interactive_b.png') no-repeat center center;
+    background-size: cover;
+  }
+  &--choir{
+    background: url('assets/images/Services/choir_b.png') no-repeat center center;
+    background-size: cover;
+  }
 }

@@ -3,6 +3,7 @@
 <body id="handsketch">
 
 <header>
+  <div class="cover"></div>
   <div class="content">
   <!-- <h1>Handsketch</h1> -->
   <div class="box">

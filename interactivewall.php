@@ -3,6 +3,7 @@
 <body>
 
   <header class="header header--InteractivePrint">
+    <div class="cover"></div>
     <div class="header__content">
       <h1 class="header__content__h1">Interactive Wall</h1>
       <?php include 'pages/nav.php' ?>
@@ -31,7 +32,8 @@
     <p class="casestudy__description">
       Make your prints come alive.
     </p>
-    <img src="assets/images/drawingsound.png" alt="" />
+    <div class="casestudy__illu casestudy__illu--interactive">
+    </div>
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>

@@ -1,8 +1,9 @@
 <?php include 'pages/head.php' ?>
 
-<body id="drawingsound">
+<body>
 
   <header class="header header--choir">
+    <div class="cover"></div>
     <div class="header__content">
       <h1 class="header__content__h1">ChoirMob</h1>
       <?php include 'pages/nav.php' ?>
@@ -31,7 +32,8 @@
     <p class="casestudy__description">
       Sing together on mobiles.
     </p>
-    <img src="assets/images/drawingsound.png" alt="" />
+    <div class="casestudy__illu casestudy__illu--choir">
+    </div>
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>

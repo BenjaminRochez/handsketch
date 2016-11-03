@@ -3,6 +3,7 @@
 <body id="drawingsound">
 
   <header class="header header--drawingsound">
+    <div class="cover"></div>
     <div class="header__content">
       <h1 class="header__content__h1">Drawing Sound</h1>
       <?php include 'pages/nav.php' ?>

@@ -160,52 +160,52 @@
         <ul class="services__group">
           <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--motion">
-              <a href="#" class="services__group__el__imghover"></a>
+              <a href="motion.php" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
-            <a href="#"><h4 class="services__group__el__title">Motion Capture</h4></a>
+            <a href="motion.php"><h4 class="services__group__el__title">Motion Capture</h4></a>
             <p class="services__group__el__p">
               Motion Capture: Gestures to animation, visuals and more.
               We have a specific and negotiated access to a high end motion capture facility in Mons.
             </p>
-            <a href="#" class="services__group__el__cta">See more +</a>
+            <a href="motion.php" class="services__group__el__cta">See more +</a>
           </li>
 
           <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--performance">
-              <a href="#" class="services__group__el__imghover"></a>
+              <a href="performances.php" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
-            <a href="#"><h4 class="services__group__el__title">PERFORMANCES</h4></a>
+            <a href="performances.php"><h4 class="services__group__el__title">PERFORMANCES</h4></a>
             <p class="services__group__el__p">
               Cutting-edge digital art on stage.
               With the HandSketch instrument that he developed, Nicolas d’Alessandro has been performing as a musician for years.
             </p>
-            <a href="#" class="services__group__el__cta">See more +</a>
+            <a href="performances.php" class="services__group__el__cta">See more +</a>
           </li>
 
           <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--workshops">
-              <a href="#" class="services__group__el__imghover"></a>
+              <a href="workshops.php" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
-            <a href="#"><h4 class="services__group__el__title">WORKSHOPS</h4></a>
+            <a href="workshops.php"><h4 class="services__group__el__title">WORKSHOPS</h4></a>
             <p class="services__group__el__p">
               The different workshops are linked to the products we offer, for instance: composition with DrawingSound and ambient sounds recordings, ...
             </p>
-            <a href="#" class="services__group__el__cta">See more +</a>
+            <a href="workshops.php" class="services__group__el__cta">See more +</a>
           </li>
 
           <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--custom">
-              <a href="#" class="services__group__el__imghover"></a>
+              <a href="custom.php" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
-            <a href="#"><h4 class="services__group__el__title">Custom Projects</h4></a>
+            <a href="custom.php"><h4 class="services__group__el__title">Custom Projects</h4></a>
             <p class="services__group__el__p">
               You have an idea and you do not know how to realise it? We can help with any stage of your project, or take care from ideation to realisation and installation.
             </p>
-            <a href="#" class="services__group__el__cta">See more +</a>
+            <a href="custom.php" class="services__group__el__cta">See more +</a>
           </li>
         </ul>
       </section>
@@ -219,21 +219,21 @@
           <img class="about__person__img" src="assets/images/joelle.jpg" data-rjs="2" alt="Joelle" />
           <h3 class="about__person__h3">Joëlle Tilmane</h3>
           <p class="about__person__p">
-            Hi world, we are Hovertone. We are a new startup in motion and music technologies. We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch.
+            She is blond. She is also an engineer. She likes transdisciplinary and challenging projects. She plays the piano and she likes to break clichés. She likes to exchange ideas, and imagine new possibilities and solutions taking into account all the constraints and needs at hand. She got a PhD in Applied Sciences from the University of Mons (Belgium) in 2012. She loves to read and to learn new things. She likes efficient meetings and communication: no time to loose, let’s build cool stuff!
           </p>
         </div>
         <div class="about__person">
           <img class="about__person__img" src="assets/images/nico.jpg" data-rjs="2" alt="Nicolas" />
           <h3 class="about__person__h3">Nicolas d’Allessandro</h3>
           <p class="about__person__p">
-            Hovertone is a combination of different technological expertises and high-tech platforms, serving these new interactive experiences, serving the emotion of the visitor, performer, creator, creative.
+            Music is barely about music, it’s about people. This sentence sets the frame of how Nicolas envisions music making, musical instrument design and the development of Hovertone. Technology and design should always serve the greater purpose of connecting minds, enabling new emotional and unique experiences, make us feel alive and ourselves. With a PhD in Applied Sciences from the University of Mons (Belgium) and a twenty-year exploratory journey on the contemporary and electronic music scenes, Nicolas breaks things down and recombine them in new innovative ways.
           </p>
         </div>
         <div class="idea">
           <h2 class="idea__h2">An Idea ?</h2>
           <h3 class="idea__h3">Contact-us</h3>
           <p class="idea__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <a href="#">infos@hovertone.com</a>
           </p>
         </div>
       </section>

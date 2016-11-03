@@ -5,7 +5,7 @@
   margin-bottom: 100px;
   &__title{
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 10px;
     text-align: left;
     font-family: $mont;
@@ -15,7 +15,7 @@
       margin-top: 50px;
     }
     @media (min-width: $lg){
-      font-size: 50px;
+      font-size: 40px;
       letter-spacing: 15px;
     }
   }
