@@ -74,9 +74,8 @@
     }
   }
   .about__h2 {
-    @include span(12);
-    color: $yellow;
     text-align: center;
+    padding: 60px 0;
   }
 
 .idea {
@@ -106,6 +105,9 @@
     text-align: center;
     text-transform: capitalize;
     font-size: 45px;
+    @media (min-width: $lg) {
+      font-size: 70px;
+    }
   }
   .idea__p {
     text-align: center;
