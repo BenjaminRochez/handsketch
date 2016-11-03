@@ -91,6 +91,8 @@ $shadow: #333;
     transform-origin: 50% 0;
     &.is-black{
       background: rgba(0, 0, 0, 0.9);
+      position: fixed;
+      top: 0;
     }
   }
   .return {

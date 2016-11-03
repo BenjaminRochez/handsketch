@@ -170,19 +170,28 @@
 
 
       <!-- SECTION ABOUT -->
-      <section>
-        <h2>About</h2>
+      <section class="about">
+        <h2 class="about__h2">About</h2>
         <!-- TEAM -->
-        <div>
-          <img src="#" alt="" />
-          <p>
+        <div class="about__person">
+          <img class="about__person__img" src="assets/images/joelle.jpg" data-rjs="2" alt="Joelle" />
+          <h3 class="about__person__h3">Joëlle Tilmane</h3>
+          <p class="about__person__p">
             Hi world, we are Hovertone. We are a new startup in motion and music technologies. We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch.
           </p>
         </div>
-        <div>
-          <img src="#" alt="" />
-          <p>
+        <div class="about__person">
+          <img class="about__person__img" src="assets/images/nico.jpg" data-rjs="2" alt="Nicolas" />
+          <h3 class="about__person__h3">Nicolas d’Allessandro</h3>
+          <p class="about__person__p">
             Hovertone is a combination of different technological expertises and high-tech platforms, serving these new interactive experiences, serving the emotion of the visitor, performer, creator, creative.
+          </p>
+        </div>
+        <div class="idea">
+          <h2 class="idea__h2">An Idea ?</h2>
+          <h3 class="idea__h3">Contact-us</h3>
+          <p class="idea__p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
       </section>
