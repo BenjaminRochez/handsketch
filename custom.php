@@ -40,7 +40,7 @@
       You have an idea and you do not know how to realise it? We can help with any stage of your project, or take care from ideation to realisation and installation. Some of our past projects include sculptures from dancers’ performances, gastronomy and digital experience, a concert where geo-localised performers are scattered through a city and influence in real-time the performance on stage... We love challenges!
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php'; ?>

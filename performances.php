@@ -40,7 +40,7 @@
         With the HandSketch instrument that he developed, Nicolas d’Alessandro has been performing as a musician for years. From short performances or demos to full concerts, as a solo performer, with other musicians or even with an orchestra, from contemporary music to classical pieces and even popular songs, everything is possible! His performances where the technology disappears behind the music are always met with great enthusiasm by the public.
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php'; ?>

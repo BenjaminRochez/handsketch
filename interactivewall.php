@@ -32,12 +32,8 @@
     <p class="casestudy__description">
       Make your prints come alive.
     </p>
-<<<<<<< HEAD
     <div class="casestudy__illu casestudy__illu--interactive">
     </div>
-=======
-    <img src="assets/images/drawingsound.png" alt="drawingsound" />
->>>>>>> 7e7f676b0bebcae113cee97cca36bb393481c867
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
