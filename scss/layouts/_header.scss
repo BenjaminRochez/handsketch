@@ -9,8 +9,9 @@
   top: 0;
   background: url('assets/images/test.jpg') no-repeat center center; //test
   background-size: cover;
-  &--{
-      background: url('assets/images/test.jpg') no-repeat center center;
+  &--drawingsound{
+      background: url('assets/images/drawingsound.png') no-repeat center center;
+      background-size: cover;
   }
 }
   .header__content {
@@ -32,7 +33,7 @@
       line-height: 50px;
       letter-spacing: 2px;
       @media (min-width: $sm) {
-        max-width: 450px;
+        max-width: 600px;
         line-height: 60px;
         letter-spacing: 6px;
       }

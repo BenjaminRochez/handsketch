@@ -36,132 +36,174 @@
   <!-- SECTION PRODUCTS -->
 
   <div class="wrapper">
-    <section class="products" id="products">
+    <section class="products triggerNav" id="products">
       <h2>Products</h2>
       <!-- products list -->
-      <ul class="products__group">
-        <li class="products__group__el clearfix">
+      <ul class="products__group ">
+        <li class="products__group__el clearfix scrollme">
           <div class="left">
-          <div class="products__group__el__img products__group__el__img--handsketch">
-            <a href="#" class="products__group__el__imghover"></a>
+          <div class="products__group__el__img products__group__el__img--handsketch animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="-105">
+            <a href="handsketch.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Handsketch</h4></a>
+          <a href="handsketch.php" class="products__group__el__titlelink animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="150"><h4 class="products__group__el__title">Handsketch</h4></a>
           </div>
           <div class="right">
           <p class="products__group__el__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <a href="#" class="products__group__el__cta">See more +</a>
+          HandSketch is a new digital musical instrument that gives to musicians the possibility to play artificial singing voice on stage and in studio.
+            <a href="handsketch.php" class="products__group__el__cta">See more +</a>
           </p>
 
           </div>
         </li>
 
-        <li class="products__group__el clearfix">
+        <li class="products__group__el clearfix scrollme">
           <div class="left">
           <p class="products__group__el__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <a href="#" class="products__group__el__cta">See more +</a>
+            Creating music is often considered difficult and limited to achieved musicians. With Drawing Sounds , we want to demystify music making.
+            <a href="drawingsound.php" class="products__group__el__cta">See more +</a>
           </p>
 
           </div>
           <div class="right">
-          <div class="products__group__el__img products__group__el__img--drawing">
-            <a href="#" class="products__group__el__imghover"></a>
+          <div class="products__group__el__img products__group__el__img--drawing animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="-105">
+            <a href="drawingsound.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Drawing Sounds</h4></a>
+          <a href="drawingsound.php" class="products__group__el__titlelink animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="150"><h4 class="products__group__el__title">Drawing Sound</h4></a>
           </div>
         </li>
 
-        <li class="products__group__el clearfix">
+        <li class="products__group__el clearfix scrollme">
           <div class="left">
-          <div class="products__group__el__img products__group__el__img--wall">
-            <a href="#" class="products__group__el__imghover"></a>
+          <div class="products__group__el__img products__group__el__img--wall  animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="-105">
+            <a href="interactivewall.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Interactive Wall</h4></a>
+          <a href="interactivewall.php" class="products__group__el__titlelink animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="150"><h4 class="products__group__el__title">Interactive Wall</h4></a>
           </div>
           <div class="right">
           <p class="products__group__el__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <a href="#" class="products__group__el__cta">See more +</a>
+            We make magic walls and posters. Just take a regular poster and/or wall, any kind of size, that you would put in an event, a festival, in your shop or in the street for advertising, and “like magic” add the interactive twist to it.
+            <a href="interactivewall.php" class="products__group__el__cta">See more +</a>
           </p>
 
           </div>
         </li>
 
-        <li class="products__group__el clearfix">
+        <li class="products__group__el clearfix scrollme">
           <div class="left">
           <p class="products__group__el__p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <a href="#" class="products__group__el__cta">See more +</a>
+            ChoirMob is an interactive installation, musical and participative that comes as a choir of voices coming from mobile phones. In this project we have met a very particular challenge: to communicate to the visitor the feeling of really playing and sharing the music.
+            <a href="choirmob.php" class="products__group__el__cta">See more +</a>
           </p>
 
           </div>
           <div class="right">
-          <div class="products__group__el__img products__group__el__img--choir">
-            <a href="#" class="products__group__el__imghover"></a>
+          <div class="products__group__el__img products__group__el__img--choir animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="-105">
+            <a href="choirmob.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="#" class="products__group__el__titlelink"><h4 class="products__group__el__title">Choir Mob</h4></a>
+          <a href="choirmob.php" class="products__group__el__titlelink animateme"
+          data-when="enter"
+          data-from="0"
+          data-to="1"
+          data-rjs="2"
+          data-translatey="150"><h4 class="products__group__el__title">Choir Mob</h4></a>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <h5>"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
+    <h5 class="sr">"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
       We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h5>
       <!-- SECTION SERVICES -->
       <section class="services">
-        <h2>Services</h2>
+        <h2 class="sr">Services</h2>
         <!-- products list -->
         <ul class="services__group">
-          <li class="services__group__el">
+          <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--motion">
               <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">Motion Capture</h4></a>
             <p class="services__group__el__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Motion Capture: Gestures to animation, visuals and more.
+              We have a specific and negotiated access to a high end motion capture facility in Mons.
             </p>
             <a href="#" class="services__group__el__cta">See more +</a>
           </li>
 
-          <li class="services__group__el">
+          <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--performance">
               <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">PERFORMANCES</h4></a>
             <p class="services__group__el__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Cutting-edge digital art on stage.
+              With the HandSketch instrument that he developed, Nicolas d’Alessandro has been performing as a musician for years.
             </p>
             <a href="#" class="services__group__el__cta">See more +</a>
           </li>
 
-          <li class="services__group__el">
+          <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--workshops">
               <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">WORKSHOPS</h4></a>
             <p class="services__group__el__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The different workshops are linked to the products we offer, for instance: composition with DrawingSound and ambient sounds recordings, ...
             </p>
             <a href="#" class="services__group__el__cta">See more +</a>
           </li>
 
-          <li class="services__group__el">
+          <li class="services__group__el sr">
             <div class="services__group__el__img services__group__el__img--custom">
               <a href="#" class="services__group__el__imghover"></a>
               <div class="services__group__el__img__gradient"></div>
             </div>
             <a href="#"><h4 class="services__group__el__title">Custom Projects</h4></a>
             <p class="services__group__el__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              You have an idea and you do not know how to realise it? We can help with any stage of your project, or take care from ideation to realisation and installation.
             </p>
             <a href="#" class="services__group__el__cta">See more +</a>
           </li>

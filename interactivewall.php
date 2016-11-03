@@ -1,10 +1,10 @@
 <?php include 'pages/head.php' ?>
 
-<body id="drawingsound">
+<body>
 
-  <header class="header header--drawingsound">
+  <header class="header header--InteractivePrint">
     <div class="header__content">
-      <h1 class="header__content__h1">Drawing Sound</h1>
+      <h1 class="header__content__h1">Interactive Wall</h1>
       <?php include 'pages/nav.php' ?>
       <!-- Anime arrow -->
       <div class="header__content__arrow">
@@ -26,20 +26,18 @@
     </div>
   </header>
 
-  <section class="casestudy triggerNav">
-    <h2 class="casestudy__title">Drawing <br>Sound</h2>
+  <section class="casestudy triggerNav ">
+    <h2 class="casestudy__title">Interactive <br>Wall</h2>
     <p class="casestudy__description">
-      Simply draw your music.
+      Make your prints come alive.
     </p>
     <img src="assets/images/drawingsound.png" alt="" />
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
       <p class="casestudy__questions__p">
-        Creating music is often considered difficult and limited to achieved
-        musicians. With Drawing Sounds workshops, we want to demystify music
-        making.
-        DrawingSound is an installation that converts any spontaneous sketch, achieved with fingers or pencil, into a musical composition. The music sounds always right so it demystifies the idea of composing music. It enables the understanding of basic music principles and the creation of a real genuine piece of music, while having a lot of fun. We propose it as an installation that you can buy or rent and/or in workshops.
+        We make magic walls and posters. Just take a regular poster and/or wall, any kind of size, that you would put in an event, a festival, in your shop or in the street for advertising, and “like magic” add the interactive twist to it.
+         Yes, our posters and walls also sense proximity and touch, and come with a suite of digital tools to control sounds, music and interactive visuals, like videos or computer graphics. Such boosted-up visual communication devices will fit in any situation where you need to make a difference, attract your audience, make them play with your concept or brand and, overall, make them have a great, fun, playful memorable experience. You want such a poster or wall?
       </p>
     </div>
     <a class="casestudy__cta" href="#">Contact us :)</a>

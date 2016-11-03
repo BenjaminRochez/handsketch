@@ -6,6 +6,9 @@ h5{
   @include push(3);
   font-family: $cardo;
   text-align: center;
+  font-size: 18px;
+  margin-bottom: 150px;
+  margin-top: 0;
 }
 .products{
   @extend .container;
@@ -71,14 +74,15 @@ h5{
       left: 0;
       top: 0;
       z-index: 9;
-    } 
+    }
     &__img{
       position: relative;
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
       @media (min-width: $lg){
-        height: 350px;
+        height: 600px;
+        max-width: 450px;
       }
       &--handsketch{
         background: url('assets/images/Products/Handsketch.png') no-repeat center center;
@@ -105,19 +109,21 @@ h5{
       color: #FFF;
       margin: 25px 0 0;
       @media (min-width: $lg){
-        transform: translateY(50%);
+        transform: translateY(250px);
       }
     }
     &__cta{
       position: relative;
       display: inline-block;
       margin-bottom: 25px;
+      display: block;
 
       color: #FFF;
       font-family: $mont;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 700;
+
 
       &:before{
         content: "";
