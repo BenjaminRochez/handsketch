@@ -37,12 +37,14 @@ h5{
       @media (min-width: $lg){
         @include span(6);
         position: relative;
+        float: left;
       }
     }
     .right{
       @media (min-width: $lg){
         @include span(6);
         position: relative;
+        float: right;
         .products__group__el__titlelink{
           left: 0;
         }
@@ -80,7 +82,10 @@ h5{
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
-      transform: translateX(0) translateY(0)!important;
+
+      &.reset{
+        transform: translateX(0) translateY(0);
+      }
       @media (min-width: $lg){
         height: 600px;
         max-width: 450px;

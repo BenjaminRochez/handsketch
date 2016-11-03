@@ -1,6 +1,7 @@
 .services{
   @extend .container;
   padding: 30px;
+  padding-bottom: 75px;
   h2{
     color: #FFF;
   }
@@ -20,7 +21,7 @@
       text-align: left;
     }
     @media (min-width: $lg){
-      @include span(3);
+      @include span(3); 
     }
     a{
       text-decoration: none;
