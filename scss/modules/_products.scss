@@ -84,7 +84,7 @@ h5{
       margin: 0 auto;
 
       &.reset{
-        transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0)!important;
       }
       @media (min-width: $lg){
         height: 600px;
