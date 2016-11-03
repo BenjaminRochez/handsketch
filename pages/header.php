@@ -9,7 +9,7 @@
     <!-- Anime arrow -->
     <div class="header__content__arrow">
       <i class="fa fa-angle-down" aria-hidden="true"></i>
-    </div>
+    </div> 
   </div>
   <div class="social">
     <ul class="social__ul">

@@ -6,6 +6,9 @@
 
   }
 }
+.about__h2 {
+  color: $aubergine;
+}
 .about__person {
   margin: 0 auto;
   padding: 20px 0;
@@ -32,6 +35,9 @@
 }
   .about__person__img {
     width: 100%;
+    @media (min-width: $sm) {
+      width: 100%;
+    }
     @media (min-width: $lg) {
       @include span(4);
     }
@@ -39,6 +45,7 @@
   }
   .about__person__h3 {
     font-size: 20px;
+
     margin-bottom: 50px;
     &:after {
       content: "";
@@ -46,7 +53,7 @@
       width: 60px;
       height: 4px;
       position: relative;
-      top: 10px;
+      top: 20px;
       background-color: $red;
     }
     @media (min-width: $lg) {
@@ -57,6 +64,9 @@
   .about__person__p {
     color: $aubergine;
     text-align: center;
+    @media (min-width: $sm) {
+      text-align: left;
+    }
     @media (min-width: $lg) {
       @include span(6);
       @include push(1);
@@ -95,7 +105,7 @@
     color: $yellow;
     text-align: center;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 45px;
   }
   .idea__p {
     text-align: center;
