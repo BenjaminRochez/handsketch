@@ -41,7 +41,7 @@
       Hovertone proposes workshops around the themes of technology and creativity. We use our supporting technology ( interactive drawing on large displays and mobile devices, interactive ink, and expressive music and voice synthesis ) to bring awareness in the use of technology for creative applications, music and sound creation, and participative performance. Our current offer can stretch from few people to an audience of 20 participants, and from 3 hours of “getting started” tutorial to several days of “residency” animation. The different workshops are linked to the products we offer, for instance: composition with DrawingSound and ambient sounds recordings, sonification of interactive drawings using conductive ink and our dedicated sound recording software, lectures on voice synthesis, introductory courses to creative programming, etc.
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php'; ?>

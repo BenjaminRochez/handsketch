@@ -348,7 +348,25 @@ $(document).ready(function() {
           $(".cover").fadeOut(1000);
       });
 
+      $(window).on('resize', function(){
+            var win = $(window); //this = window
+            if (win.width() >= 768) {
+              $('.to-reset').removeClass('reset');
+            } else if (win.width() < 768){
+              $('.to-reset').addClass('reset');
+            }
+      });
+      $(window).on('load', function(){
+            var win = $(window); //this = window
+            if (win.width() >= 768) {
+              $('.to-reset').removeClass('reset');
+            } else if (win.width() < 768){
+              $('.to-reset').addClass('reset');
+            }
+      });
 
-      $('.products__group__el__img').addClass('reset');
+
+
+
       video();
 });

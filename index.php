@@ -42,7 +42,7 @@
       <ul class="products__group ">
         <li class="products__group__el clearfix scrollme">
           <div class="left">
-          <div class="products__group__el__img products__group__el__img--handsketch animateme"
+          <div class="products__group__el__img products__group__el__img--handsketch to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -51,7 +51,7 @@
             <a href="handsketch.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="handsketch.php" class="products__group__el__titlelink animateme"
+          <a href="handsketch.php" class="products__group__el__titlelink to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -69,7 +69,7 @@
 
         <li class="products__group__el clearfix scrollme">
           <div class="right">
-          <div class="products__group__el__img products__group__el__img--drawing animateme"
+          <div class="products__group__el__img products__group__el__img--drawing to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -78,7 +78,7 @@
             <a href="drawingsound.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="drawingsound.php" class="products__group__el__titlelink animateme"
+          <a href="drawingsound.php" class="products__group__el__titlelink to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -96,7 +96,7 @@
 
         <li class="products__group__el clearfix scrollme">
           <div class="left">
-          <div class="products__group__el__img products__group__el__img--wall  animateme"
+          <div class="products__group__el__img products__group__el__img--wall to-reset  animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -105,7 +105,7 @@
             <a href="interactivewall.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="interactivewall.php" class="products__group__el__titlelink animateme"
+          <a href="interactivewall.php" class="products__group__el__titlelink to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -123,7 +123,7 @@
 
         <li class="products__group__el clearfix scrollme">
           <div class="right">
-          <div class="products__group__el__img products__group__el__img--choir animateme"
+          <div class="products__group__el__img products__group__el__img--choir to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"
@@ -132,7 +132,7 @@
             <a href="choirmob.php" class="products__group__el__imghover"></a>
             <div class="products__group__el__img__gradient"></div>
           </div>
-          <a href="choirmob.php" class="products__group__el__titlelink animateme"
+          <a href="choirmob.php" class="products__group__el__titlelink to-reset animateme"
           data-when="enter"
           data-from="0"
           data-to="1"

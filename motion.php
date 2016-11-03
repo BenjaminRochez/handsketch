@@ -41,7 +41,7 @@
         We have a specific and negotiated access to a high end motion capture facility in Mons. We therefore can achieve state-of-the-art motion capture sessions for specific projects like games, motion design, etc. Some of our projects also include taking motion capture data as material to design visuals and sounds driven by motion. Our expertise also encompasses low cost sensors such as the Microsoft Kinect or the LeapMotion, and their inclusion for realtime interaction of various kinds.
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php'; ?>
