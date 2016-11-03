@@ -40,4 +40,15 @@
       @include post(3)
     }
   }
+  &__cta {
+    background-color: $aubergine;
+    box-shadow: 1px 1px 15px 0 rgba(25,25,25,.75);
+    color: #FFF;
+    margin-top: 40px;
+    width: 200px;
+    transition: all .3s ease-out;
+    &:hover  {
+      background-color: $lightblue;
+    }
+  }
 }

@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DiploStudio | Creative Digital Agency</title>
-  <meta name="description" content="Diplostudio is working on new amazing stuff. Stay tuned!"/>
+  <title>Hovertone | Creative experience design</title>
+  <meta name="description" content="We make special effects in the real life, creative experiences using technologies."/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="DiploStudio | Creative Digital Agency" />
-  <meta property="og:description" content="Diplostudio is working on new amazing stuff. Stay tuned!" />
-  <meta property="og:url" content="http://diplostudio.be" />
-  <meta property="og:site_name" content="DiploStudio" />
-  <meta property="article:publisher" content="https://www.facebook.com/diplostudio" />
-  <meta property="og:image" content="http://diplostudio.be/assets/images/facebook.jpg" />
+  <meta property="og:title" content="Hovertone | Creative experience design" />
+  <meta property="og:description" content="We make special effects in the real life, creative experiences using technologies." />
+  <meta property="og:url" content="http://hovertone.com" />
+  <meta property="og:site_name" content="Hovertone" />
+  <meta property="article:publisher" content="https://www.facebook.com/hovertonedesign/" />
+  <meta property="og:image" content="http://hovertone.com/assets/images/hovertone.jpg" />
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:description" content="Diplostudio is working on new amazing stuff. Stay tuned!"/>
-  <meta name="twitter:title" content="DiploStudio"/>
-  <meta name="twitter:site" content="@diplostudio"/>
-  <meta name="twitter:domain" content="DiploStudio"/>
-  <meta name="twitter:creator" content="@diplostudio"/>
-  <meta name="twitter:image:src" content="http://diplostudio.be/assets/images/facebook.jpg"/>
+  <meta name="twitter:description" content="We make special effects in the real life, creative experiences using technologies."/>
+  <meta name="twitter:title" content="Hovertone"/>
+  <meta name="twitter:site" content="@hovertone"/>
+  <meta name="twitter:domain" content="hovertone"/>
+  <meta name="twitter:creator" content="@hovertone"/>
+  <meta name="twitter:image:src" content="http://hovertone.com/assets/images/hovertone.jpg"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="favicon.ico"/>
   <link href="style.css" rel="stylesheet" />

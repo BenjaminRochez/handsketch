@@ -4,7 +4,7 @@
 
   <?php include 'pages/header.php' ?>
   <!-- Video -->
-    <section class="video-wrapper">
+    <section class="video-wrapper" >
       <div id="video-container">
         <span class="beforeVid overlayVid"></span>
         <span class="afterVid overlayVid"></span>
@@ -36,8 +36,8 @@
   <!-- SECTION PRODUCTS -->
 
   <div class="wrapper">
-    <section class="products triggerNav" id="products">
-      <h2>Products</h2>
+    <section class="products triggerNav">
+      <h2 id="products">Products</h2>
       <!-- products list -->
       <ul class="products__group ">
         <li class="products__group__el clearfix scrollme">
@@ -154,7 +154,7 @@
     <h5 class="sr">"Hi world, we are Hovertone. We are a new startup in motion and music technologies.<br>
       We aim at designing new musical experiences, creating new apps and new instruments like the HandSketch."</h5>
       <!-- SECTION SERVICES -->
-      <section class="services">
+      <section class="services" id="services">
         <h2 class="sr">Services</h2>
         <!-- products list -->
         <ul class="services__group">
@@ -212,7 +212,7 @@
 
 
       <!-- SECTION ABOUT -->
-      <section class="about">
+      <section class="about" id="about">
         <h2 class="about__h2">About</h2>
         <!-- TEAM -->
         <div class="about__person">

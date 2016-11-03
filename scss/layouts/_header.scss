@@ -58,6 +58,11 @@
       transition: all .3s ease-out;
       animation: arrow 2s infinite;
     }
+    .header__content__a {
+      position: absolute;
+      bottom: 140px;
+      @extend .centerx;
+    }
 @keyframes arrow {
   0% {
     transform: scale(3) translateY(0);
@@ -141,5 +146,7 @@
   right: 0;
   bottom: 0;
   background: red;
-  z-index: 9998;
+  z-index: 999999;
+  background: url(assets/images/ripple.gif) no-repeat center center;
+  background-size: 40px 40px;
 }

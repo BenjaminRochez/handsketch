@@ -432,9 +432,8 @@
     left: 35%; // adjust to position right 67%
     transform: translateY(-50%);
     z-index: 0;
-    @media (max-width: 420px) {
-      width: 800px;
-      height: 800px;
+    @media (max-width: $md) {
+      display: none;
     }
     .round {
       width: 100%;

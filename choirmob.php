@@ -34,14 +34,13 @@
     </p>
     <div class="casestudy__illu casestudy__illu--choir">
     </div>
-
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
       <p class="casestudy__questions__p">
         ChoirMob is an interactive installation, musical and participative that comes as a choir of voices coming from mobile phones. In this project we have met a very particular challenge: to communicate to the visitor the feeling of really playing and sharing the music. The installation consists in a set of smartphones scattered in the room, either suspended from the ceiling, either on pedestals. Every smartphone is an instrument of music in itself, result of a long process of research and development in digital new instruments. Each smartphone, when touched, generates a singing voice, albeit artificial, but very realistic and expressive. These lyrical and ethereal voice, outputs of a technology object, are disturbing and confounding by their humanity. The visitor, through his fingertips, brings to life this avatar.
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php' ?>

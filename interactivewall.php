@@ -32,8 +32,12 @@
     <p class="casestudy__description">
       Make your prints come alive.
     </p>
+<<<<<<< HEAD
     <div class="casestudy__illu casestudy__illu--interactive">
     </div>
+=======
+    <img src="assets/images/drawingsound.png" alt="drawingsound" />
+>>>>>>> 7e7f676b0bebcae113cee97cca36bb393481c867
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
@@ -42,7 +46,7 @@
          Yes, our posters and walls also sense proximity and touch, and come with a suite of digital tools to control sounds, music and interactive visuals, like videos or computer graphics. Such boosted-up visual communication devices will fit in any situation where you need to make a difference, attract your audience, make them play with your concept or brand and, overall, make them have a great, fun, playful memorable experience. You want such a poster or wall?
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php' ?>
