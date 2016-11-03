@@ -233,7 +233,7 @@
           <h2 class="idea__h2">An Idea ?</h2>
           <h3 class="idea__h3">Contact-us</h3>
           <p class="idea__p">
-            <a href="#">infos@hovertone.com</a>
+            <a href="mailto:info@hovertone.com">info@hovertone.com</a>
           </p>
         </div>
       </section>
