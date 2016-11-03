@@ -6,16 +6,16 @@
     <ul class="list__title">
       <h3 class="list__title__h3">Products</h3>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Handsketch</a>
+        <a class="list__title__li__a" href="handsketch.php">Handsketch</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Drawing Sound</a>
+        <a class="list__title__li__a" href="drawingsound.php">Drawing Sound</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Interactive Wall</a>
+        <a class="list__title__li__a" href="interactivewall.php">Interactive Wall</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Choir Mob</a>
+        <a class="list__title__li__a" href="choirmob.php">Choir Mob</a>
       </li>
     </ul>
 
@@ -23,16 +23,16 @@
     <ul class="list__title">
       <h3 class="list__title__h3">Services</h3>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Motion Capture</a>
+        <a class="list__title__li__a" href="motion.php">Motion Capture</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Performances</a>
+        <a class="list__title__li__a" href="performances.php">Performances</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">WorkShops</a>
+        <a class="list__title__li__a" href="workshops.php">WorkShops</a>
       </li>
       <li class="list__title__li">
-        <a class="list__title__li__a" href="">Custom Project</a>
+        <a class="list__title__li__a" href="custom.php">Custom Project</a>
       </li>
     </ul>
 

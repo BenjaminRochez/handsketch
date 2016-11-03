@@ -15,7 +15,7 @@
     <div class="social">
       <ul class="social__ul">
         <li class="social__ul__el">
-          <a class="social__ul__el__a" href="#">Facebook</a>
+          <a class="social__ul__el__a" href="https://www.facebook.com/hovertonedesign/?fref=ts">Facebook</a>
         </li>
         <li class="social__ul__el">
           <a class="social__ul__el__a" href="#">Twitter</a>

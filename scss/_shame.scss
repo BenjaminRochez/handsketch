@@ -135,7 +135,11 @@
   &--choir{
     background: url('assets/images/Services/choir_b.png') no-repeat center center;
     background-size: cover;
-  } 
+  }
+}
+
+.hidden {
+  display: none !important;
 }
 
 
