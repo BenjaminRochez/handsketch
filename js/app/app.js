@@ -127,7 +127,7 @@ $(document).ready(function() {
       easing   : 'ease-in-out',
       scale    : 1,
       viewFactor: 0.3,
-      reset: true
+      reset: false
       };
 
       var srRevealH = {

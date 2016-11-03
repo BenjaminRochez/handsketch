@@ -68,13 +68,6 @@
         </li>
 
         <li class="products__group__el clearfix scrollme">
-          <div class="left">
-          <p class="products__group__el__p">
-            Creating music is often considered difficult and limited to achieved musicians. With Drawing Sounds , we want to demystify music making.
-            <a href="drawingsound.php" class="products__group__el__cta">See more +</a>
-          </p>
-
-          </div>
           <div class="right">
           <div class="products__group__el__img products__group__el__img--drawing animateme"
           data-when="enter"
@@ -91,6 +84,13 @@
           data-to="1"
           data-rjs="2"
           data-translatey="150"><h4 class="products__group__el__title">Drawing Sound</h4></a>
+          </div>
+          <div class="left">
+          <p class="products__group__el__p">
+            Creating music is often considered difficult and limited to achieved musicians. With Drawing Sounds , we want to demystify music making.
+            <a href="drawingsound.php" class="products__group__el__cta">See more +</a>
+          </p>
+
           </div>
         </li>
 
@@ -122,13 +122,6 @@
         </li>
 
         <li class="products__group__el clearfix scrollme">
-          <div class="left">
-          <p class="products__group__el__p">
-            ChoirMob is an interactive installation, musical and participative that comes as a choir of voices coming from mobile phones. In this project we have met a very particular challenge: to communicate to the visitor the feeling of really playing and sharing the music.
-            <a href="choirmob.php" class="products__group__el__cta">See more +</a>
-          </p>
-
-          </div>
           <div class="right">
           <div class="products__group__el__img products__group__el__img--choir animateme"
           data-when="enter"
@@ -145,6 +138,13 @@
           data-to="1"
           data-rjs="2"
           data-translatey="150"><h4 class="products__group__el__title">Choir Mob</h4></a>
+          </div>
+          <div class="left">
+          <p class="products__group__el__p">
+            ChoirMob is an interactive installation, musical and participative that comes as a choir of voices coming from mobile phones. In this project we have met a very particular challenge: to communicate to the visitor the feeling of really playing and sharing the music.
+            <a href="choirmob.php" class="products__group__el__cta">See more +</a>
+          </p>
+
           </div>
         </li>
 

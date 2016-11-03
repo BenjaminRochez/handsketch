@@ -80,6 +80,7 @@ h5{
       max-width: 260px;
       height: 260px;
       margin: 0 auto;
+      transform: translateX(0) translateY(0)!important;
       @media (min-width: $lg){
         height: 600px;
         max-width: 450px;
