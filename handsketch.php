@@ -30,19 +30,19 @@
         This new musical instrument is the result of numerous years of research and development in the field of expressive singing voice synthesis.
       </p>
       <div class="images">
-        <img src="assets/images/iPadPro.png" class="ipad front_1 animateme" alt=""
+        <img src="assets/images/iPadPro.png" class="ipad front_1 animateme" alt="ipadpro with handsketch interface"
         data-when="enter"
         data-from="0"
         data-to="2"
         data-rjs="2"
         data-translatey="200" />
-        <img src="assets/images/iPadPro.png" class="ipad front_2 animateme" alt=""
+        <img src="assets/images/iPadPro.png" class="ipad front_2 animateme" alt="ipadpro with handsketch interface"
         data-when="enter"
         data-from="0"
         data-rjs="2"
         data-to="1.5"
         data-translatey="-550" />
-        <img src="assets/images/ipad_perspective_black.png" class="ipad front_3 animateme" alt=""
+        <img src="assets/images/ipad_perspective_black.png" class="ipad front_3 animateme" alt="ipadpro with handsketch interface"
         data-when="enter"
         data-from="0.9"
         data-to="2.5"

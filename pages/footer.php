@@ -1,6 +1,6 @@
 <footer>
   <div class="redirection">
-    <h2 class="redirection__h2">Hovertone</h2>
+    <h2 id="contact" class="redirection__h2">Hovertone</h2>
 
     <!-- PRODUCTS -->
     <ul class="list__title">

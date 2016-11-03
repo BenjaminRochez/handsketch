@@ -31,7 +31,7 @@
     <p class="casestudy__description">
       Simply draw your music.
     </p>
-    <img src="assets/images/drawingsound.png" alt="" />
+    <img src="assets/images/drawingsound.png" alt="drawingsound" />
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
@@ -42,7 +42,7 @@
         DrawingSound is an installation that converts any spontaneous sketch, achieved with fingers or pencil, into a musical composition. The music sounds always right so it demystifies the idea of composing music. It enables the understanding of basic music principles and the creation of a real genuine piece of music, while having a lot of fun. We propose it as an installation that you can buy or rent and/or in workshops.
       </p>
     </div>
-    <a class="casestudy__cta" href="#">Contact us :)</a>
+    <a class="casestudy__cta btn" href="maito:info@hovertone.com">Contact us</a>
   </section>
   <!-- FOOTER -->
   <?php include 'pages/footer.php' ?>
