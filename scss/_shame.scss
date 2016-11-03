@@ -137,3 +137,17 @@
     background-size: cover;
   }
 }
+
+
+.about__person{
+  .left{
+    @media (min-width: $lg){
+      float: left;
+    }
+  }
+  .right{
+    @media (min-width: $lg){
+      float: right;
+    }
+  }
+}

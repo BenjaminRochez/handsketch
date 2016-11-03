@@ -223,9 +223,9 @@
           </p>
         </div>
         <div class="about__person">
-          <img class="about__person__img" src="assets/images/nico.jpg" data-rjs="2" alt="Nicolas" />
-          <h3 class="about__person__h3">Nicolas d’Allessandro</h3>
-          <p class="about__person__p">
+          <img class="about__person__img right" src="assets/images/nico.jpg" data-rjs="2" alt="Nicolas" />
+          <h3 class="about__person__h3 left">Nicolas d’Allessandro</h3>
+          <p class="about__person__p left">
             Music is barely about music, it’s about people. This sentence sets the frame of how Nicolas envisions music making, musical instrument design and the development of Hovertone. Technology and design should always serve the greater purpose of connecting minds, enabling new emotional and unique experiences, make us feel alive and ourselves. With a PhD in Applied Sciences from the University of Mons (Belgium) and a twenty-year exploratory journey on the contemporary and electronic music scenes, Nicolas breaks things down and recombine them in new innovative ways.
           </p>
         </div>
