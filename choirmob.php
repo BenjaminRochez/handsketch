@@ -2,9 +2,9 @@
 
 <body id="drawingsound">
 
-  <header class="header header--drawingsound">
+  <header class="header header--choir">
     <div class="header__content">
-      <h1 class="header__content__h1">Drawing Sound</h1>
+      <h1 class="header__content__h1">ChoirMob</h1>
       <?php include 'pages/nav.php' ?>
       <!-- Anime arrow -->
       <div class="header__content__arrow">
@@ -27,19 +27,16 @@
   </header>
 
   <section class="casestudy triggerNav">
-    <h2 class="casestudy__title">Drawing <br>Sound</h2>
+    <h2 class="casestudy__title">ChoirMob</h2>
     <p class="casestudy__description">
-      Simply draw your music.
+      Sing together on mobiles.
     </p>
     <img src="assets/images/drawingsound.png" alt="" />
 
     <div class="casestudy__questions">
       <h3 class="casestudy__questions__title">What?</h4>
       <p class="casestudy__questions__p">
-        Creating music is often considered difficult and limited to achieved
-        musicians. With Drawing Sounds workshops, we want to demystify music
-        making.
-        DrawingSound is an installation that converts any spontaneous sketch, achieved with fingers or pencil, into a musical composition. The music sounds always right so it demystifies the idea of composing music. It enables the understanding of basic music principles and the creation of a real genuine piece of music, while having a lot of fun. We propose it as an installation that you can buy or rent and/or in workshops.
+        ChoirMob is an interactive installation, musical and participative that comes as a choir of voices coming from mobile phones. In this project we have met a very particular challenge: to communicate to the visitor the feeling of really playing and sharing the music. The installation consists in a set of smartphones scattered in the room, either suspended from the ceiling, either on pedestals. Every smartphone is an instrument of music in itself, result of a long process of research and development in digital new instruments. Each smartphone, when touched, generates a singing voice, albeit artificial, but very realistic and expressive. These lyrical and ethereal voice, outputs of a technology object, are disturbing and confounding by their humanity. The visitor, through his fingertips, brings to life this avatar.
       </p>
     </div>
     <a class="casestudy__cta" href="#">Contact us :)</a>

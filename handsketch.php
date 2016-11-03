@@ -22,7 +22,7 @@
   </header>
   <div class="background"></div>
   <!-- SECTION PRESENTATION -->
-  <section id="about" class="presentation">
+  <section id="about" class="presentation triggerNav">
     <h2 class="h">The new digital musical instrument</h2>
     <!-- INTRO BLOCK -->
     <div class="intro scrollme">
@@ -144,15 +144,4 @@
       </div>
     </section>
 
-
-    <footer id="contact">
-      <h3>
-        Hovertone
-      </h3>
-      <p>
-        Made with humans by diplostudio
-      </p>
-      <a href="#">Contact us</a>
-      <img src="assets/images/logo_handsketch.png" data-rjs="2" alt="logo handsketch" />
-    </footer>
 <?php include 'pages/end.php' ?>

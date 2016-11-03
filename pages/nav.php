@@ -7,7 +7,7 @@
 
 <!-- MAIN NAV -->
 <nav class="nav">
-  <a class="return" href="#">Hovertone</a>
+  <a class="return" href="index.php">Hovertone</a>
   <ul class="nav__ul">
     <li class="nav__ul__li">
       <a class="nav__ul__li__a" href="#about">About</a>

@@ -1,6 +1,7 @@
 
 
 <header class="header">
+  <div class="cover"></div>
   <div class="header__content">
     <h1 class="header__content__h1">We make special effects in the real life</h1>
     <?php include 'pages/nav.php' ?>
